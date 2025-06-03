@@ -1,9 +1,21 @@
 <h1 align="center">Hi 👋, I'm Nour Eldeen</h1>
 <h3 align="center">An Undergraduate Software Developer</h3>
 
+<h3 align="left">Languages and Tools:</h3>
+<ul align="left">
+  <li>C++</li>
+  <li>C#</li>
+  <li>.NET</li>
+  <li>MySQL</li>
+  <li>Python</li>
+</ul>
 
+<!-- Top Languages Bar aligned to the left -->
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NourELdeenMahmoud&layout=compact" alt="Top Languages"/>
+</div>
 
-
+<!-- Connect With Me Section moved to the bottom -->
 <h3 align="left">Connect with me:</h3>
 <p align="left">
   <a href="https://www.linkedin.com/in/nour-eldeen-eg/" target="_blank">
@@ -14,36 +26,6 @@
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40" />
   </a>
 </p>
-
-
-
-
-
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" width="40" height="40"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt=".NET" width="40" height="40"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-  </a>
-</p>
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=NourELdeenMahmoud&layout=compact)
 
 ---
 
