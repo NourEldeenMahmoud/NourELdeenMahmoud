@@ -4,8 +4,6 @@
 وز,ببب
 
 
-- 🌱 I’m currently learning **.NET**
-
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -42,8 +40,4 @@
   </a>
 </p>
 
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=noureldeenmahmoud&show_icons=true&locale=en&layout=compact" alt="Top Languages" />
-</p>
 
