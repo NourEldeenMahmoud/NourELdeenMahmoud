@@ -1,0 +1,17 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # يشتغل يوميًا الساعة 12 منتصف الليل
+  workflow_dispatch:     # يتيح تشغيله يدويًا من تبويب Actions
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
