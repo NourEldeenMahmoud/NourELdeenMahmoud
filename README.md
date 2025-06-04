@@ -5,7 +5,7 @@
 <!-- About Me -->
 <div align="center">
   <h3>🌟 About Me</h3>
-  <p>I'm a passionate undergraduate software developer with a focus on C++, C#. I love building efficient solutions and learning new technologies!</p>
+ <p>I'm a Full Stack Desktop Developer with solid experience in C++ and C#. While I currently focus on desktop solutions, I'm actively working towards becoming a Full Stack .NET Developer to broaden my impact and capabilities.</p>
 </div>
 
 <br/>
