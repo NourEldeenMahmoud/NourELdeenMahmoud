@@ -3,26 +3,30 @@
 
 <br/>
 
-<!-- Languages & Tools -->
-<h3 align="right">🛠️ اللغات والتقنيات | Languages & Tools:</h3>
+<!-- Most Used Languages + Badges Side by Side -->
+<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 40px; flex-wrap: wrap;">
 
-<p align="right">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
-</p>
+  <!-- GitHub Top Languages -->
+  <div>
+    <h3>📊 Most Used Languages:</h3>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NourELdeenMahmoud&layout=compact&theme=default" alt="Top Languages" />
+  </div>
+
+  <!-- Language & Tools Badges -->
+  <div align="center">
+    <h3 align="right">🛠️ اللغات والتقنيات | Languages & Tools:</h3>
+    <p align="right">
+      <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+      <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+    </p>
+  </div>
+
+</div>
 
 <br/>
-<hr>
-<!-- GitHub Top Languages -->
-<h3 align="left">📊 Most Used Languages:</h3>
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NourELdeenMahmoud&layout=compact&theme=default" alt="Top Languages" />
-</p>
 
-<br/>
-<hr>
 <!-- Connect With Me -->
 <h3 align="left">📫 Connect with me:</h3>
 <p align="left">
