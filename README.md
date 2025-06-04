@@ -7,13 +7,13 @@
 
   <!-- GitHub Top Languages -->
   <div style="flex: 1; min-width: 300px;">
-    <h3>📊 Most Used Languages:</h3>
+    <h3>📊 Most Used Languages</h3>
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NourELdeenMahmoud&layout=compact&theme=default" alt="Top Languages" />
   </div>
 
   <!-- Language & Tools Badges -->
   <div style="flex: 1; min-width: 300px; text-align: right;">
-    <h3>🛠️ Languages & Tools:</h3>
+    <h3>🛠️ Languages & Tools</h3>
     <p>
       <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
       <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
