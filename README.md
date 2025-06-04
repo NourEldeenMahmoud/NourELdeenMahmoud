@@ -1,5 +1,4 @@
 <h1 align="center">Hi 👋, I'm Nour Eldeen</h1>
-<h3 align="center">🎓 An Undergraduate Software Developer</h3>
 
 <br/>
 
