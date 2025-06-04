@@ -14,7 +14,7 @@
 </p>
 
 <br/>
----
+-------
 <!-- GitHub Top Languages -->
 <h3 align="left">📊 Most Used Languages:</h3>
 <p align="left">
@@ -22,7 +22,7 @@
 </p>
 
 <br/>
----
+------
 <!-- Connect With Me -->
 <h3 align="left">📫 Connect with me:</h3>
 <p align="left">
