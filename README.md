@@ -1,14 +1,14 @@
 <h1 align="center">Hi 👋, I'm Nour Eldeen</h1>
 <h3 align="center">An Undergraduate Software Developer</h3>
 
-<h3 align="left">Languages and Tools:</h3>
-<ul align="left">
-  <li>C++</li>
-  <li>C#</li>
-  <li>.NET</li>
-  <li>MySQL</li>
-  <li>Python</li>
-</ul>
+<h3 align="right">🛠️ اللغات والتقنيات | Languages & Tools:</h3>
+
+<p align="right">
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server"/>
+</p>
 
 <!-- Top Languages Bar aligned to the left -->
 <div align="left">
@@ -27,6 +27,5 @@
   </a>
 </p>
 
----
 
 
