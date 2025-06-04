@@ -5,7 +5,7 @@
 <!-- About Me -->
 <div align="center">
   <h3>🌟 About Me</h3>
-  <p>I'm a passionate undergraduate software developer with a focus on C++, C#, and Python. I love building efficient solutions and learning new technologies!</p>
+  <p>I'm a passionate undergraduate software developer with a focus on C++, C#. I love building efficient solutions and learning new technologies!</p>
 </div>
 
 <br/>
