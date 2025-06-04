@@ -37,7 +37,7 @@
 <!-- Connect With Me -->
 <div align="left">
   <h3>📫 Connect with Me</h3>
-  <p style="display: flex; gap: 15px;">
+  <p style="display: flex; gap: 25px;">
     <a href="https://www.linkedin.com/in/nour-eldeen-eg/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
