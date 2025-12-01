@@ -44,24 +44,27 @@ jobs:
           npm ci --no-audit --no-fund || true
           npm i pacman-contribution-graph@latest || true
           npm list --depth=0 || true
-
-      - name: Generate Pacman graph (with required flags)
+          
+      - name: Generate Pacman graph (with increased node heap)
+        env:
+          NODE_OPTIONS: "--max-old-space-size=4096"
         run: |
           set -euxo pipefail
           mkdir -p output
-          echo "Generating pacman graphs for user: ${{ github.repository_owner }}"
-          # Use the fixed command with platform and gameTheme
-          npx --yes pacman-contribution-graph --platform github --gameTheme github --username "${{ github.repository_owner }}" --output ./output
-          # If you prefer dark theme, uncomment the next line and comment the previous:
-          # npx --yes pacman-contribution-graph --platform github --gameTheme github-dark --username "${{ github.repository_owner }}" --output ./output
+          echo "NODE_OPTIONS = $NODE_OPTIONS"
+          echo "Generating pacman graphs for: ${{ github.repository_owner }}"
 
-          echo "Contents of output after generation:"
+          # Try generation (light theme)
+          npx --yes pacman-contribution-graph --platform github --gameTheme github --username "${{ github.repository_owner }}" --output ./output
+
+          echo "List output after generation:"
           ls -la output || true
 
           if [ -z "$(ls -A output 2>/dev/null || true)" ]; then
             echo "ERROR: no files produced in ./output — aborting."
             exit 1
           fi
+
 
       - name: Commit & push generated files to 'output' branch
         env:
