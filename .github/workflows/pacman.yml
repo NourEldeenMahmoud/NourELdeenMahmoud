@@ -1,0 +1,28 @@
+      - name: Generate Pacman graph (strict + debug)
+        run: |
+          set -euxo pipefail
+
+          echo "PWD: $(pwd)"
+          echo "Listing node_modules bin (for debugging):"
+          ls -la node_modules/.bin || true
+
+          mkdir -p output
+          echo "Trying npx --yes pacman-contribution-graph --username ${GITHUB_REPOSITORY_OWNER:-${{ github.repository_owner }}} --output ./output"
+          # نفّذ الأمر بدون |> true علشان أي خطأ يظهر في اللوج
+          npx --yes pacman-contribution-graph --username "${{ github.repository_owner }}" --output ./output
+
+          echo "If previous command returned 0, check output folder contents now:"
+          ls -la output || true
+
+          # بعض نسخ الأداة تستخدم --user بدل --username — نجربها أيضا لكن نتركها دون تجاهل الأخطاء
+          echo "Trying alternate flag --user (if previous worked this will run but may overwrite):"
+          npx --yes pacman-contribution-graph --user "${{ github.repository_owner }}" --output ./output || true
+
+          echo "FINAL ls of output:"
+          ls -la output
+
+          # إن لم يوجد أي ملف نوقف الـ job بخطأ واضح
+          if [ -z "$(ls -A output 2>/dev/null || true)" ]; then
+            echo "ERROR: no files produced in ./output — aborting with non-zero exit so logs are visible."
+            exit 1
+          fi
