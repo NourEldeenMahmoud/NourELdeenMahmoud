@@ -6,8 +6,8 @@
 <div align="center" style="max-width:850px;margin:0 auto;">
   <h3>🌟 About Me</h3>
   <p style="line-height:1.6;">
-    I'm a Full Stack Desktop Developer with solid experience in C++ and C#. While I currently focus on desktop solutions,
-    I'm actively working towards becoming a Full Stack .NET Developer to broaden my impact and capabilities.
+I'm a Software Engineer experienced in architecting web solution, full-stack desktop systems, and automation tools/bots.
+I work mainly with C++, C#, and .NET, applying clean architecture principles and strong problem-solving skills to deliver reliable and efficient software.
   </p>
 </div>
 
@@ -21,8 +21,11 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="56" alt="csharp logo" style="margin:0 10px"/>
   <img src="https://skillicons.dev/icons?i=dotnet" height="56" alt=".net logo" style="margin:0 10px"/>
 
-  <!-- SQL SERVER -->
+
+  <!-- Databases -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="56" alt="sql server logo" style="margin:0 10px"/>
+  <img src="https://skillicons.dev/icons?i=sql" height="56" alt="sql logo" style="margin:0 10px"/>
+  <img src="https://skillicons.dev/icons?i=mongodb" height="56" alt="mongodb logo" style="margin:0 10px"/>
 
   <!-- Web basics -->
   <img src="https://skillicons.dev/icons?i=html" height="56" alt="html logo" style="margin:0 10px"/>
@@ -33,6 +36,8 @@
   <!-- Other languages -->
   <img src="https://skillicons.dev/icons?i=py" height="56" alt="python logo" style="margin:0 10px"/>
   <img src="https://skillicons.dev/icons?i=docker" height="56" alt="docker logo" style="margin:0 10px"/>
+  <img src="https://skillicons.dev/icons?i=assembly" height="56" alt="assembly logo" style="margin:0 10px"/>
+  <img src="https://skillicons.dev/icons?i=git" height="56" alt="git logo" style="margin:0 10px"/>
 
 
 </div>
@@ -69,14 +74,16 @@
 ---
 
 <!-- CONTACT (moved to the bottom) -->
-<div align="center" style="margin-top:18px;">
-  <a href="https://www.linkedin.com/in/nour-eldeen-eg/" style="text-decoration:none;margin:0 6px;">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="28" alt="linkedin logo" />
-  </a>
-  <a href="mailto:noureldeendev@gmail.com" style="text-decoration:none;margin:0 6px;">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="28" alt="gmail logo" />
-  </a>
-  <a href="https://github.com/NourEldeenMahmoud" style="text-decoration:none;margin:0 6px;">
+### 🤝 Let's Connect
+<div align="center">
+  <a href="mailto:noureldeendev@gmail.com"><img src="https://skillicons.dev/icons?i=gmail"></a>
+  <a href="https://www.linkedin.com/in/nour-eldeen-eg/"><img src="https://skillicons.dev/icons?i=linkedin"></a>
+  <a href="https://github.com/NourEldeenMahmoud"><img src="https://skillicons.dev/icons?i=github"></a>
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/master/wave.svg" alt="wave" style="width:100%; margin-top:10px;" />
+</div>
     <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&labelColor=&style=for-the-badge" height="28" alt="github logo" />
   </a>
 </div>
