@@ -10,8 +10,6 @@
 
 <br/>
 
-<h1 align="center">Hey 👋 What's Up?</h1>
-
 ###
 
 <div align="center">
@@ -35,6 +33,8 @@
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=aws" height="60" alt="amazonwebservices logo"  />
 </div>
+
+<br/>
 
 ###
 
