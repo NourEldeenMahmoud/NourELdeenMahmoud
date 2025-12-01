@@ -1,4 +1,4 @@
-name: Generate Pacman Contribution Graph (Node20)
+name: Generate Pacman Contribution Graph (Node20 fixed)
 
 on:
   workflow_dispatch:
@@ -23,12 +23,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Show versions & workspace
+      - name: Show environment
         run: |
-          echo ">>> node & npm versions"
           node -v
           npm -v
-          echo ">>> workspace"
           pwd
           whoami
           ls -la
@@ -40,36 +38,28 @@ jobs:
           fi
           cat package.json
 
-      - name: Install generator (local)
+      - name: Install generator
         run: |
           set -euxo pipefail
           npm ci --no-audit --no-fund || true
           npm i pacman-contribution-graph@latest || true
           npm list --depth=0 || true
 
-      - name: Generate Pacman graph (strict + debug)
+      - name: Generate Pacman graph (with required flags)
         run: |
           set -euxo pipefail
-          echo "PWD: $(pwd)"
-          echo "Listing node_modules bin (for debugging):"
-          ls -la node_modules/.bin || true
-
           mkdir -p output
-          echo "Running: npx --yes pacman-contribution-graph --username ${GITHUB_REPOSITORY_OWNER:-${{ github.repository_owner }}} --output ./output"
-          npx --yes pacman-contribution-graph --username "${{ github.repository_owner }}" --output ./output
+          echo "Generating pacman graphs for user: ${{ github.repository_owner }}"
+          # Use the fixed command with platform and gameTheme
+          npx --yes pacman-contribution-graph --platform github --gameTheme github --username "${{ github.repository_owner }}" --output ./output
+          # If you prefer dark theme, uncomment the next line and comment the previous:
+          # npx --yes pacman-contribution-graph --platform github --gameTheme github-dark --username "${{ github.repository_owner }}" --output ./output
 
-          echo "List output after generation:"
+          echo "Contents of output after generation:"
           ls -la output || true
 
-          # تجربة بديلة (بعض نسخ تستخدم --user)
-          echo "Trying alternate flag --user (if needed):"
-          npx --yes pacman-contribution-graph --user "${{ github.repository_owner }}" --output ./output || true
-
-          echo "FINAL ls of output:"
-          ls -la output
-
           if [ -z "$(ls -A output 2>/dev/null || true)" ]; then
-            echo "ERROR: no files produced in ./output — aborting with non-zero exit so logs are visible."
+            echo "ERROR: no files produced in ./output — aborting."
             exit 1
           fi
 
@@ -78,12 +68,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euxo pipefail
-          # إذا المجلد فارغ نتوقف مبكراً
-          if [ -z "$(ls -A output 2>/dev/null || true)" ]; then
-            echo "No files to push; exiting."
-            exit 0
-          fi
-
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
@@ -115,7 +99,9 @@ jobs:
 
       - name: Final diagnostics
         run: |
-          echo "=== Root files ==="
+          echo "=== Root listing ==="
           ls -la
-          echo "=== Output branch listing via API (brief) ==="
-          curl -sSf "https://api.github.com/repos/${{ github.repository }}/git/refs/heads/output" || true
+          echo "=== Output folder listing (workspace) ==="
+          ls -la output || true
+          echo "=== Check raw file URL (brief status) ==="
+          curl -sSf -o /dev/null "https://raw.githubusercontent.com/${{ github.repository }}/output/pacman-contribution-graph.svg" && echo "Raw file exists" || echo "Raw file NOT found"
