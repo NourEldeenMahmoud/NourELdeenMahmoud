@@ -1,4 +1,4 @@
-name: Generate Pacman Contribution Graph (Node20 fixed)
+name: Generate Pacman Contribution Graph
 
 on:
   workflow_dispatch:
@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Show environment
+      - name: Show env
         run: |
           node -v
           npm -v
@@ -44,7 +44,7 @@ jobs:
           npm ci --no-audit --no-fund || true
           npm i pacman-contribution-graph@latest || true
           npm list --depth=0 || true
-          
+
       - name: Generate Pacman graph (write to file paths)
         env:
           NODE_OPTIONS: "--max-old-space-size=4096"
@@ -56,7 +56,7 @@ jobs:
           # Light theme -> writes a file (not directory)
           npx --yes pacman-contribution-graph --platform github --gameTheme github --username "${{ github.repository_owner }}" --output ./output/pacman-contribution-graph.svg
 
-          # Dark theme (optional)
+          # Dark theme (optional). If it errors, it won't fail the job (so light still works).
           npx --yes pacman-contribution-graph --platform github --gameTheme github-dark --username "${{ github.repository_owner }}" --output ./output/pacman-contribution-graph-dark.svg || true
 
           echo "Contents of output:"
@@ -67,17 +67,23 @@ jobs:
             exit 1
           fi
 
-
-
-      - name: Commit & push generated files to 'output' branch
+      - name: Commit & push generated files to 'output' branch (safe)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euxo pipefail
+
+          if [ -z "$(ls -A output 2>/dev/null || true)" ]; then
+            echo "No files to push; exiting."
+            exit 0
+          fi
+
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           TMPDIR=$(mktemp -d)
+          echo "Cloning output branch into $TMPDIR"
+
           if git ls-remote --exit-code --heads origin output; then
             git clone --single-branch --branch output "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" "$TMPDIR"
           else
@@ -91,9 +97,12 @@ jobs:
             git clone --single-branch --branch output "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" "$TMPDIR"
           fi
 
-          rsync -av --delete ./output/ "$TMPDIR/"
-
           cd "$TMPDIR"
+          # remove everything except .git
+          find . -mindepth 1 -maxdepth 1 -not -name '.git' -exec rm -rf {} +
+          # copy generated files into the clone safely
+          rsync -av --progress --exclude='.git' "${GITHUB_WORKSPACE}/output/" "$TMPDIR/"
+
           git add -A
           if git diff --cached --quiet; then
             echo "No changes to commit on output branch."
@@ -107,7 +116,7 @@ jobs:
         run: |
           echo "=== Root listing ==="
           ls -la
-          echo "=== Output folder listing (workspace) ==="
+          echo "=== Workspace output listing ==="
           ls -la output || true
-          echo "=== Check raw file URL (brief status) ==="
+          echo "=== Check raw file URL (brief) ==="
           curl -sSf -o /dev/null "https://raw.githubusercontent.com/${{ github.repository }}/output/pacman-contribution-graph.svg" && echo "Raw file exists" || echo "Raw file NOT found"
