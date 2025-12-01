@@ -79,11 +79,8 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
   <a href="https://github.com/NourEldeenMahmoud"><img src="https://skillicons.dev/icons?i=github"></a>
 </div>
 
+<h3 align="center">Crafting elegant solutions through clean, efficient code.</h3>
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/master/wave.svg" alt="wave" style="width:100%; margin-top:10px;" />
 </div>
-    <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=181717&logoColor=white&labelColor=&style=for-the-badge" height="28" alt="github logo" />
-  </a>
-</div>
-
-<div style="height:18px"></div>
