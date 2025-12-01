@@ -69,7 +69,8 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 <!-- final spacer before footer/contact -->
 <div style="height:28px"></div>
 
----
+
+<hr style="border:0;height:2px;background:linear-gradient(90deg,#6C7BFF,#3b82f6,#06b6d4);border-radius:4px;margin:32px 0;">
 
 <!-- CONTACT (moved to the bottom) -->
 ### 🤝 Let's Connect
