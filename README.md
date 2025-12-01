@@ -82,5 +82,5 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 <h3 align="center">Crafting elegant solutions through clean, efficient code.</h3>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/master/wave.svg" alt="wave" style="width:100%; margin-top:10px;" />
+  <img src="https://camo.githubusercontent.com/8a5ecb7d3ca70c62c423b30d2e432fd67e9e5ec94d6dac3a626636c0ce6ea049/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d776176696e6726636f6c6f723d6772616469656e7426637573746f6d436f6c6f724c6973743d3132266865696768743d3130302673656374696f6e3d68656164657226746578743d26666f6e7453697a653d3026616e696d6174696f6e3d7477696e6b6c696e67" alt="wave" style="width:100%; margin-top:10px;" />
 </div>
