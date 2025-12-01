@@ -16,14 +16,27 @@
 
 ### Tech & Tools
 <div align="center" style="margin-bottom:18px;">
-  <!-- أيقونات قابلة للتعديل: استبدل src لأي أيقون تانية تحبها -->
+  <!-- Desktop / Backend -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="56" alt="cpp logo" style="margin:0 10px"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="56" alt="csharp logo" style="margin:0 10px"/>
   <img src="https://skillicons.dev/icons?i=dotnet" height="56" alt=".net logo" style="margin:0 10px"/>
-  <img src="https://skillicons.dev/icons?i=rust" height="56" alt="rust logo" style="margin:0 10px"/>
+
+  <!-- SQL SERVER -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="56" alt="sql server logo" style="margin:0 10px"/>
+
+  <!-- Web basics -->
+  <img src="https://skillicons.dev/icons?i=html" height="56" alt="html logo" style="margin:0 10px"/>
+  <img src="https://skillicons.dev/icons?i=css" height="56" alt="css logo" style="margin:0 10px"/>
+  <img src="https://skillicons.dev/icons?i=bootstrap" height="56" alt="bootstrap logo" style="margin:0 10px"/>
+
+
+  <!-- Other languages -->
   <img src="https://skillicons.dev/icons?i=py" height="56" alt="python logo" style="margin:0 10px"/>
-  <img src="https://skillicons.dev/icons?i=aws" height="56" alt="aws logo" style="margin:0 10px"/>
+  <img src="https://skillicons.dev/icons?i=docker" height="56" alt="docker logo" style="margin:0 10px"/>
+
+
 </div>
+
 
 <!-- spacer (بین البلوكس) -->
 <div style="height:26px"></div>
