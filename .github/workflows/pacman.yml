@@ -1,0 +1,41 @@
+name: Generate Pacman Contribution Graph
+
+on:
+  schedule:
+    - cron: '0 0 * * *'    # تشغيل كل يوم
+  workflow_dispatch:        # تشغيل يدوي
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install pacman generator
+        run: |
+          npm install -g pacman-contribution-graph
+
+      - name: Generate Pacman graph
+        run: |
+          mkdir -p output
+          pacman-contribution-graph --username NourEldeenMahmoud --output ./output
+
+      - name: Push to output branch
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: output
+          force: true
+          directory: output
