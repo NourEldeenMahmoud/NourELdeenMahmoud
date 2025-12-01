@@ -24,7 +24,6 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 
   <!-- Databases -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="56" alt="sql server logo" style="margin:0 10px"/>
-  <img src="https://skillicons.dev/icons?i=sql" height="56" alt="sql logo" style="margin:0 10px"/>
   <img src="https://skillicons.dev/icons?i=mongodb" height="56" alt="mongodb logo" style="margin:0 10px"/>
 
   <!-- Web basics -->
@@ -36,7 +35,6 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
   <!-- Other languages -->
   <img src="https://skillicons.dev/icons?i=py" height="56" alt="python logo" style="margin:0 10px"/>
   <img src="https://skillicons.dev/icons?i=docker" height="56" alt="docker logo" style="margin:0 10px"/>
-  <img src="https://skillicons.dev/icons?i=assembly" height="56" alt="assembly logo" style="margin:0 10px"/>
   <img src="https://skillicons.dev/icons?i=git" height="56" alt="git logo" style="margin:0 10px"/>
 
 
