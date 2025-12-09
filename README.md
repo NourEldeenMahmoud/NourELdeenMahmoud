@@ -47,12 +47,20 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 <div style="height:26px"></div>
 
 <!-- Badges / Stats -->
-<div align="center" style="margin-bottom:22px;">
-  <img src="https://streak-stats.demolab.com?user=NourEldeenMahmoud&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="140" alt="streak graph" style="margin:0 10px" />
-  <br/>
-  <img src="https://github-profile-trophy.vercel.app?username=NourEldeenMahmoud&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="140" alt="trophy graph" style="margin:0 10px" /> 
-  <br/>
+<div align="center">
+  <img 
+    src="https://streak-stats.demolab.com?user=NourEldeenMahmoud&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" 
+    height="140" 
+    alt="streak graph"
+  />
+
+  <img 
+    src="https://github-profile-trophy.vercel.app?username=NourEldeenMahmoud&theme=dracula&column=3&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" 
+    height="140" 
+    alt="trophy graph"
+  />
 </div>
+
 
 <!-- bigger spacer above pacman (this controls the white line gap) -->
 <div style="height:28px"></div>
