@@ -64,11 +64,7 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 <img
   src="https://github-profile-trophy.screw-hand.vercel.app/?username=NourEldeenMahmoud
   &theme=dracula
-  &no-bg=true
-  &no-frame=false
-  &margin-w=15
-  &title=Commits,Stars,Followers,PullRequest,Repositories,Experience
-  &column=6"
+ "
   alt="GitHub Trophies"
   height="150"
 />
