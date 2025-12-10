@@ -61,7 +61,6 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
   <br><br>
 
   <!-- Trophy Row -->
-[![GitHub Streak](https://streak-stats.demolab.com?user=NourEldeenMahmoud&theme=dracula)](https://git.io/streak-stats)
 
 
 
