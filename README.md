@@ -49,7 +49,7 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 <!-- Badges / Stats -->
 <div align="center">
   <img 
-    src="https://streak-stats.demolab.com?user=NourEldeenMahmoud&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" 
+    src="https://streak-stats.demolab.com?user=NourEldeenMahmoud&cache_seconds=86400"
     height="140" 
     alt="streak graph"
   />
