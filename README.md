@@ -55,6 +55,8 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
     alt="GitHub Streak" 
     height="200"
   />
+  <br>
+
   
   <!-- Trophy Row -->
 
