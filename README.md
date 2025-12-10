@@ -57,14 +57,10 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
     height="200"
   />
   
-  <br><br>
-
   <!-- Trophy Row -->
 
 
 
-
-  <br><br>
 
 
 <!-- bigger spacer above pacman (this controls the white line gap) -->
