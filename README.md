@@ -49,14 +49,25 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 <!-- Badges / Stats -->
 <div align="center">
 
-![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=NourEldeenMahmoud&theme=radical)
+<!-- Stats Section -->
+<div align="center">
+  <!-- Streak Card -->
+  <img 
+    src="https://github-readme-streak-stats-eight.vercel.app?user=NourEldeenMahmoud&theme=radical&hide_border=false&border_radius=10" 
+    alt="GitHub Streak" 
+    height="200"
+  />
+  
+  <br><br>
 
-<img 
-  src="https://github-profile-trophy.screw-hand.vercel.app/?username=NourEldeenMahmoud&theme=radical&column=3&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" 
-  height="140" 
-  alt="trophy graph" 
-/>
-</div>
+  <!-- Trophy Row -->
+  <img 
+    src="https://github-profile-trophy.screw-hand.vercel.app/?username=NourEldeenMahmoud&theme=radical&no-frame=true&no-bg=true&margin-w=10&row=1" 
+    alt="GitHub Trophies" 
+    height="150"
+  />
+
+  <br><br>
 
 
 <!-- bigger spacer above pacman (this controls the white line gap) -->
