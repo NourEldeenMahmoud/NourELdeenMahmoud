@@ -51,8 +51,11 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 
 ![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app?user=NourEldeenMahmoud&theme=radical)
 
-![GitHub Trophy](https://github-profile-trophy.screw-hand.vercel.app/?username=NourEldeenMahmoud&theme=radical)
-
+<img 
+  src="https://github-profile-trophy.screw-hand.vercel.app/?username=NourEldeenMahmoud&theme=radical&column=3&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" 
+  height="140" 
+  alt="trophy graph" 
+/>
 </div>
 
 
