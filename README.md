@@ -39,8 +39,7 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 
 
 </div>
-<br/>
-<br/>
+
 
 
 <!-- spacer (بین البلوكس) -->
