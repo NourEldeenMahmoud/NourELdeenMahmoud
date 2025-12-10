@@ -39,8 +39,7 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 
 
 </div>
-
-
+<br>
 
 <!-- spacer (بین البلوكس) -->
 <div style="height:26px"></div>
@@ -59,6 +58,7 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
   
   <!-- Trophy Row -->
 
+<br>
 
 
 
