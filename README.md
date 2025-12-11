@@ -44,8 +44,7 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 <!-- spacer (بین البلوكس) -->
 <div style="height:26px"></div>
 
-<!-- Badges / Stats -->
-<div align="center">
+
 
 <!-- Stats Section -->
 <div align="center">
