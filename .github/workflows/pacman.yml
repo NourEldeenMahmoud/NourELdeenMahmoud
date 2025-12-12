@@ -54,10 +54,10 @@ jobs:
           echo "Generating pacman graphs for: ${{ github.repository_owner }}"
 
           # Light theme -> writes a file (not directory)
-          npx --yes pacman-contribution-graph --platform github --gameTheme github --username "${{ github.repository_owner }}" --output ./output/pacman-contribution-graph.svg
+          npx --yes pacman-contribution-graph --platform github --gameTheme github --username "NourEldeenMahmoud"  --output ./output/pacman-contribution-graph.svg
 
           # Dark theme (optional). If it errors, it won't fail the job (so light still works).
-          npx --yes pacman-contribution-graph --platform github --gameTheme github-dark --username "${{ github.repository_owner }}" --output ./output/pacman-contribution-graph-dark.svg || true
+          npx --yes pacman-contribution-graph --platform github --gameTheme github-dark --username "NourEldeenMahmoud"  --output ./output/pacman-contribution-graph-dark.svg || true
 
           echo "Contents of output:"
           ls -la output || true
