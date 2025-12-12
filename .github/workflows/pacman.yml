@@ -2,8 +2,25 @@ name: Generate Pacman Contribution Graph
 
 on:
   workflow_dispatch:
+    inputs:
+      username:
+        description: 'GitHub username to generate contributions for (optional). If empty, uses repository owner.'
+        required: false
+        default: ''
+      startDate:
+        description: 'Optional start date (YYYY-MM-DD)'
+        required: false
+        default: ''
+      endDate:
+        description: 'Optional end date (YYYY-MM-DD)'
+        required: false
+        default: ''
+      seed:
+        description: 'Optional seed (if pacman tool supports it) to vary movement'
+        required: false
+        default: ''
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *' # daily at 00:00 UTC
 
 permissions:
   contents: write
@@ -23,12 +40,13 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Show env
+      - name: Show env (diagnostics)
         run: |
           node -v
           npm -v
           pwd
           whoami
+          echo "GITHUB_REPOSITORY_OWNER=$GITHUB_REPOSITORY_OWNER"
           ls -la
 
       - name: Ensure package.json (temporary)
@@ -41,6 +59,7 @@ jobs:
       - name: Install generator
         run: |
           set -euxo pipefail
+          # try a clean install if package-lock exists; otherwise install pacman tool directly
           npm ci --no-audit --no-fund || true
           npm i pacman-contribution-graph@latest || true
           npm list --depth=0 || true
@@ -48,16 +67,49 @@ jobs:
       - name: Generate Pacman graph (write to file paths)
         env:
           NODE_OPTIONS: "--max-old-space-size=4096"
+          # Provide PACMAN_TOKEN via repo secret if you want private contributions read:
+          PACMAN_TOKEN: ${{ secrets.PACMAN_TOKEN }}
         run: |
           set -euxo pipefail
           mkdir -p output
-          echo "Generating pacman graphs for: ${{ github.repository_owner }}"
+
+          # pick username: prefer workflow input, fallback to repository owner
+          INPUT_USERNAME="${{ github.event.inputs.username }}"
+          USERNAME="${INPUT_USERNAME:-$GITHUB_REPOSITORY_OWNER}"
+          echo "Using username: $USERNAME"
+
+          # optional flags from inputs
+          START_DATE="${{ github.event.inputs.startDate }}"
+          END_DATE="${{ github.event.inputs.endDate }}"
+          SEED="${{ github.event.inputs.seed }}"
+
+          EXTRA_FLAGS=""
+          if [ -n "$START_DATE" ]; then
+            EXTRA_FLAGS="$EXTRA_FLAGS --startDate $START_DATE"
+          fi
+          if [ -n "$END_DATE" ]; then
+            EXTRA_FLAGS="$EXTRA_FLAGS --endDate $END_DATE"
+          fi
+          if [ -n "$SEED" ]; then
+            EXTRA_FLAGS="$EXTRA_FLAGS --seed $SEED"
+          fi
+
+          # if PACMAN_TOKEN provided, add token flag so tool can access private contributions (if tool supports it)
+          TOKEN_FLAG=""
+          if [ -n "${PACMAN_TOKEN:-}" ]; then
+            TOKEN_FLAG="--token ${PACMAN_TOKEN}"
+            echo "PACMAN_TOKEN found — will request private contributions if supported by tool."
+          else
+            echo "No PACMAN_TOKEN provided — only public contributions will be visible."
+          fi
+
+          echo "Generating pacman graphs for: $USERNAME"
 
           # Light theme -> writes a file (not directory)
-          npx --yes pacman-contribution-graph --platform github --gameTheme github --username "NourEldeenMahmoud"  --output ./output/pacman-contribution-graph.svg
+          npx --yes pacman-contribution-graph --platform github --gameTheme github --username "$USERNAME" $TOKEN_FLAG $EXTRA_FLAGS --output ./output/pacman-contribution-graph.svg
 
           # Dark theme (optional). If it errors, it won't fail the job (so light still works).
-          npx --yes pacman-contribution-graph --platform github --gameTheme github-dark --username "NourEldeenMahmoud"  --output ./output/pacman-contribution-graph-dark.svg || true
+          npx --yes pacman-contribution-graph --platform github --gameTheme github-dark --username "$USERNAME" $TOKEN_FLAG $EXTRA_FLAGS --output ./output/pacman-contribution-graph-dark.svg || true
 
           echo "Contents of output:"
           ls -la output || true
@@ -120,3 +172,4 @@ jobs:
           ls -la output || true
           echo "=== Check raw file URL (brief) ==="
           curl -sSf -o /dev/null "https://raw.githubusercontent.com/${{ github.repository }}/output/pacman-contribution-graph.svg" && echo "Raw file exists" || echo "Raw file NOT found"
+
