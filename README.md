@@ -58,7 +58,11 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 
   
   <!-- Trophy Row -->
-
+   <img 
+    src="https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark" 
+    alt="GitHub Streak" 
+    height="200"
+  /> 
 <br>
 
 
