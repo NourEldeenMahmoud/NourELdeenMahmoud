@@ -60,7 +60,7 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 
   
 
-<br>
+<div style="height:26px"></div>
 
 
 
