@@ -57,7 +57,7 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
   <br>
    <img 
     src="https://github-profile-trophy.vercel.app/?username=NourEldeenMahmoud&theme=dracula&hide_border=false&border_radius=10" 
-    alt="GitHub Streak" 
+    alt="GitHub Trophies" 
     height="200"
   />
   
