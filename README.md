@@ -56,10 +56,8 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
   />
   <br>
   
-<img src="https://github-profile-trophy.screw-hand.vercel.app/?username=NourEldeenMahmoud
-&theme=dracula
-&title=Stars,Commit,Followers,Issues,PullRequest,Repositories
-&margin-w=15&margin-h=15" />
+<img src="https://github-profile-trophy.screw-hand.vercel.app/?username=NourEldeenMahmoud&theme=dracula&title=Stars,Commit,Followers,Issues,PullRequest,Repositories&margin-w=15&margin-h=15" />
+
   
 
 <br>
