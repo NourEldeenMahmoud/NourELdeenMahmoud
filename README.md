@@ -52,15 +52,14 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
   <img 
     src="https://github-readme-streak-stats-eight.vercel.app?user=NourEldeenMahmoud&theme=dracula&hide_border=false&border_radius=10" 
     alt="GitHub Streak" 
-    height="200"
-  />
+    height="200"/>
   <br>
-  
+  <br>
+
 <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=NourEldeenMahmoud&theme=dracula&title=Stars,Commit,Followers,Issues,PullRequest,Repositories&margin-w=15&margin-h=15" />
+  <br>
+  <br>
 
-  
-
-<div style="height:26px"></div>
 
 
 
