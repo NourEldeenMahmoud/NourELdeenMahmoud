@@ -55,11 +55,10 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
     height="200"
   />
   <br>
-<img 
-  src="https://github-profile-trophy.vercel.app/?username=NourEldeenMahmoud&theme=dracula&hide_border=false&border_radius=10"
-  alt="GitHub Trophies"
-  height="200"
-/>
+<img src="https://github-profile-trophy.vercel.app/?username=NourEldeenMahmoud
+&theme=dracula
+&title=Stars,Commit,Followers,Issues,PullRequest,Repositories
+&margin-w=15&margin-h=15" />
 
   
 
