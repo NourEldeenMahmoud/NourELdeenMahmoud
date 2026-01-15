@@ -1,60 +1,3 @@
-name: Generate Pacman Contribution Graph
-
-on:
-  workflow_dispatch:
-    inputs:
-      startDate:
-        description: 'Optional start date (YYYY-MM-DD)'
-        required: false
-        default: ''
-      endDate:
-        description: 'Optional end date (YYYY-MM-DD)'
-        required: false
-        default: ''
-      seed:
-        description: 'Optional seed (if pacman tool supports it) to vary movement'
-        required: false
-        default: ''
-  schedule:
-    - cron: '0 0 * * *' # daily at 00:00 UTC
-
-permissions:
-  contents: write
-
-jobs:
-  build-and-push:
-    runs-on: ubuntu-latest
-    env:
-      # put PAT as repo secret named PACMAN_TOKEN to include private contributions (optional)
-      PACMAN_TOKEN: ${{ secrets.PACMAN_TOKEN }}
-
-    steps:
-      - name: Checkout (fetch all)
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Node 20
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Show env (diagnostics)
-        run: |
-          node -v
-          npm -v
-          pwd
-          whoami
-          echo "GITHUB_REPOSITORY_OWNER=$GITHUB_REPOSITORY_OWNER"
-          ls -la
-
-      - name: Ensure package.json (temporary)
-        run: |
-          if [ ! -f package.json ]; then
-            echo '{"name":"pacman-gen","version":"1.0.0","private":true}' > package.json
-          fi
-          cat package.json
-
       - name: Install generator
         run: |
           set -euxo pipefail
@@ -62,7 +5,7 @@ jobs:
           npm i pacman-contribution-graph@latest || true
           npm list --depth=0 || true
 
-           - name: Generate Pacman graph (write to file paths)
+      - name: Generate Pacman graph (write to file paths)
         env:
           NODE_OPTIONS: "--max-old-space-size=4096"
         run: |
@@ -87,7 +30,6 @@ jobs:
           npm install pacman-contribution-graph@1.5.3
 
           echo "Generating graphs..."
-
           npx --yes pacman-contribution-graph \
             --platform github \
             --username "$USERNAME" \
@@ -109,61 +51,3 @@ jobs:
             --showAll \
             $TOKEN_FLAG \
             --output ./output/pacman-contribution-graph-dark.svg || true
-
-          echo "Contents of output:"
-          ls -la output || true
-
-
-      - name: Commit & push generated files to 'output' branch (safe)
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -euxo pipefail
-
-          if [ -z "$(ls -A output 2>/dev/null || true)" ]; then
-            echo "No files to push; exiting."
-            exit 0
-          fi
-
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          TMPDIR=$(mktemp -d)
-          echo "Cloning output branch into $TMPDIR"
-
-          if git ls-remote --exit-code --heads origin output; then
-            git clone --single-branch --branch output "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" "$TMPDIR"
-          else
-            git clone "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" "$TMPDIR"
-            cd "$TMPDIR"
-            git checkout --orphan output || true
-            git rm -rf . || true
-            git commit --allow-empty -m "Create output branch" || true
-            git push -u origin output || true
-            cd $GITHUB_WORKSPACE
-            git clone --single-branch --branch output "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" "$TMPDIR"
-          fi
-
-          cd "$TMPDIR"
-          # remove everything except .git
-          find . -mindepth 1 -maxdepth 1 -not -name '.git' -exec rm -rf {} +
-          # copy generated files into the clone safely
-          rsync -av --progress --exclude='.git' "${GITHUB_WORKSPACE}/output/" "$TMPDIR/"
-
-          git add -A
-          if git diff --cached --quiet; then
-            echo "No changes to commit on output branch."
-          else
-            git commit -m "Update pacman contribution graphs" || true
-            git push "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" output
-            echo "Pushed files to output branch"
-          fi
-
-      - name: Final diagnostics
-        run: |
-          echo "=== Root listing ==="
-          ls -la
-          echo "=== Workspace output listing ==="
-          ls -la output || true
-          echo "=== Check raw file URL (brief) ==="
-          curl -sSf -o /dev/null "https://raw.githubusercontent.com/${{ github.repository }}/output/pacman-contribution-graph.svg" && echo "Raw file exists" || echo "Raw file NOT found"
