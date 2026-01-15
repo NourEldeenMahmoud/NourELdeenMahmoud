@@ -1,53 +1,48 @@
-      - name: Install generator
-        run: |
-          set -euxo pipefail
-          npm ci --no-audit --no-fund || true
-          npm i pacman-contribution-graph@latest || true
-          npm list --depth=0 || true
+name: Update Pac-Man Contribution Graph
 
-      - name: Generate Pacman graph (write to file paths)
-        env:
-          NODE_OPTIONS: "--max-old-space-size=4096"
+on:
+  schedule:
+    # Runs every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: Install dependencies
         run: |
-          set -euxo pipefail
+          pip install requests pygments
+      
+      - name: Create output directory
+        run: |
           mkdir -p output
-
-          USERNAME="NourEldeenMahmoud"
-          echo "Using username: $USERNAME"
-
-          YEAR=$(date +%Y)
-          START_DATE="${YEAR}-01-01"
-          END_DATE="${YEAR}-12-31"
-
-          TOKEN_FLAG=""
-          if [ -n "${PACMAN_TOKEN:-}" ]; then
-            TOKEN_FLAG="--token ${PACMAN_TOKEN}"
-            echo "PACMAN_TOKEN found — using private contributions."
-          fi
-
-          echo "Installing stable pacman-contribution-graph version..."
-          npm uninstall pacman-contribution-graph || true
-          npm install pacman-contribution-graph@1.5.3
-
-          echo "Generating graphs..."
-          npx --yes pacman-contribution-graph \
-            --platform github \
-            --username "$USERNAME" \
-            --gameTheme github \
-            --startDate "$START_DATE" \
-            --endDate "$END_DATE" \
-            --minContribution 0 \
-            --showAll \
-            $TOKEN_FLAG \
-            --output ./output/pacman-contribution-graph.svg
-
-          npx --yes pacman-contribution-graph \
-            --platform github \
-            --username "$USERNAME" \
-            --gameTheme github-dark \
-            --startDate "$START_DATE" \
-            --endDate "$END_DATE" \
-            --minContribution 0 \
-            --showAll \
-            $TOKEN_FLAG \
-            --output ./output/pacman-contribution-graph-dark.svg || true
+      
+      - name: Generate Pac-Man contribution graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/scripts/generate_pacman.py --user NourEldeenMahmoud --output output/pacman-contribution-graph.svg
+          
+      - name: Generate dark mode Pac-Man contribution graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/scripts/generate_pacman.py --user NourEldeenMahmoud --output output/pacman-contribution-graph-dark.svg --theme dark
+          
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add output/
+          git diff --staged --quiet || git commit -m "Update Pac-Man contribution graph [skip ci]" || exit 0
+          git push
