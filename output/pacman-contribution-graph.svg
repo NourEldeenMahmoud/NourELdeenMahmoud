@@ -20,7 +20,7 @@
     </style>
   </defs>
   <text x="10" y="20" font-family="Arial, sans-serif" font-size="14" fill="#24292f">
-    1416 contributions in the last year
+    1430 contributions in the last year
   </text>
   <g transform="translate(10, 40)">
     <rect x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2"/>
@@ -392,7 +392,7 @@
     <rect x="676" y="26" width="11" height="11" fill="#ebedf0" rx="2"/>
     <rect x="676" y="39" width="11" height="11" fill="#ebedf0" rx="2"/>
     <rect x="676" y="52" width="11" height="11" fill="rgb(64, 196, 99)" rx="2"/>
-    <rect x="676" y="65" width="11" height="11" fill="rgb(64, 196, 99)" rx="2"/>
+    <rect x="676" y="65" width="11" height="11" fill="rgb(65, 197, 100)" rx="2"/>
     <circle cx="265.5" cy="44.5" r="1.5" fill="#40c463" opacity="1">
       <animate attributeName="opacity" values="1;1;0;0" dur="20s" 
                keyTimes="0;0.37961538461538463;0.3896153846153846;1" 
