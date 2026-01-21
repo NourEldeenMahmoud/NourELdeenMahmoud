@@ -390,6 +390,7 @@
     <rect x="676" y="0" width="11" height="11" fill="rgb(57, 63, 83)" rx="2"/>
     <rect x="676" y="13" width="11" height="11" fill="#161b22" rx="2"/>
     <rect x="676" y="26" width="11" height="11" fill="#161b22" rx="2"/>
+    <rect x="676" y="39" width="11" height="11" fill="#161b22" rx="2"/>
     <circle cx="252.5" cy="44.5" r="1.5" fill="#39d353" opacity="1">
       <animate attributeName="opacity" values="1;1;0;0" dur="20s" 
                keyTimes="0;0.3603846153846154;0.37038461538461537;1" 
