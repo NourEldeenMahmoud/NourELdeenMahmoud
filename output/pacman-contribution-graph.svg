@@ -20,7 +20,7 @@
     </style>
   </defs>
   <text x="10" y="20" font-family="Arial, sans-serif" font-size="14" fill="#24292f">
-    1436 contributions in the last year
+    1437 contributions in the last year
   </text>
   <g transform="translate(10, 40)">
     <rect x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2"/>
@@ -390,7 +390,8 @@
     <rect x="676" y="0" width="11" height="11" fill="rgb(64, 196, 99)" rx="2"/>
     <rect x="676" y="13" width="11" height="11" fill="#ebedf0" rx="2"/>
     <rect x="676" y="26" width="11" height="11" fill="#ebedf0" rx="2"/>
-    <rect x="676" y="39" width="11" height="11" fill="#ebedf0" rx="2"/>
+    <rect x="676" y="39" width="11" height="11" fill="rgb(64, 196, 99)" rx="2"/>
+    <rect x="676" y="52" width="11" height="11" fill="#ebedf0" rx="2"/>
     <circle cx="252.5" cy="44.5" r="1.5" fill="#40c463" opacity="1">
       <animate attributeName="opacity" values="1;1;0;0" dur="20s" 
                keyTimes="0;0.3603846153846154;0.37038461538461537;1" 
@@ -484,6 +485,11 @@
     <circle cx="642.5" cy="44.5" r="1.5" fill="#40c463" opacity="1">
       <animate attributeName="opacity" values="1;1;0;0" dur="20s" 
                keyTimes="0;0.9373076923076923;0.9473076923076924;1" 
+               repeatCount="indefinite"/>
+    </circle>
+    <circle cx="681.5" cy="44.5" r="1.5" fill="#40c463" opacity="1">
+      <animate attributeName="opacity" values="1;1;0;0" dur="20s" 
+               keyTimes="0;0.9949999999999999;1;1" 
                repeatCount="indefinite"/>
     </circle>
     <g class="pacman-group" transform="translate(0, 39)">
