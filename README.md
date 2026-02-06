@@ -15,10 +15,6 @@
 ---
 
 
-<br/>
-
-## 🛠️ Tech & Tools
-
 <div align="center" style="margin-bottom:18px;">
   <!-- Desktop / Backend -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="56" alt="cpp logo" style="margin:0 10px"/>
