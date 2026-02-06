@@ -88,127 +88,157 @@
 ---
 <br/>
 
-## 🚀 Featured Projects
-
 <div align="center">
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🩸 Blood Bank Management System
-**Integrated Desktop System for Blood Bank Management**
-
-A comprehensive desktop system for managing blood banks, including donor registration, blood bag inventory tracking, patient management, blood transfer requests, and a real-time dashboard for statistics and analytics.
+  <h2>🚀 Featured Projects</h2>
+  <p><i>Some of the projects I enjoyed building and scaling.</i></p>
+</div>
 
 <br/>
 
-<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
-<img src="https://img.shields.io/badge/Windows%20Forms-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Forms" />
-<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+### 🖥️ Desktop Applications
+
+<table>
+<tr>
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+
+#### 🩸 Blood Bank Management System — Desktop App
+**Integrated Desktop System for Blood Bank Management**
+
+• Donor & Inventory Tracking<br/>
+• Real-time Dashboard & Reports
+
+<br/>
+
+<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET" />
+<img src="https://img.shields.io/badge/Windows%20Forms-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows Forms" />
+<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
 
 <br/><br/>
 
 <a href="https://github.com/NourEldeenMahmoud/BBMS-Project">
-  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository" />
+  <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
 </a>
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
-#### 📱 Blood Bank Mobile App
-**Cross-Platform Integrated Blood Bank Platform**
-
-An integrated platform consisting of a Flutter mobile app for donors, a .NET desktop app for administrators, and a REST API for integration, supporting appointment booking, donation tracking, and real-time notifications.
-
-<br/>
-
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
-<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
-<img src="https://img.shields.io/badge/REST%20API-FF6B6B?style=for-the-badge&logo=rest&logoColor=white" alt="REST API" />
-
-<br/><br/>
-
-<a href="https://github.com/NourEldeenMahmoud/Blood-Bank-mobile-App">
-  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository" />
-</a>
-
-</td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
-
-#### 🏨 Bookify – Hotel Reservation Platform
-**Complete Web Application for Hotel Reservations**
-
-A comprehensive hotel booking platform that allows searching for available rooms, viewing room details, creating bookings, processing online payments, and includes an admin panel for managing rooms, bookings, and customer data.
-
-<br/>
-
-<img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
-<img src="https://img.shields.io/badge/MVC-FF6B6B?style=for-the-badge&logo=asp.net&logoColor=white" alt="MVC" />
-<img src="https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Entity Framework" />
-<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
-<img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe" />
-<img src="https://img.shields.io/badge/SendGrid-1A82E2?style=for-the-badge&logo=sendgrid&logoColor=white" alt="SendGrid" />
-
-<br/><br/>
-
-<a href="https://github.com/NourEldeenMahmoud/Bookify">
-  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository" />
-</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🏦 Bank Management System
+#### 🏦 Bank Management System — Console App
 **Comprehensive Console-Based Banking System**
 
-A comprehensive bank management system built in C++ using OOP, providing a command-line interface to manage client accounts, deposits, withdrawals, transfers, currency exchange, and user administration with permission control.
+• Account Management & Transactions<br/>
+• Currency Exchange & User Administration
 
 <br/>
 
-<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/OOP-FF6B6B?style=for-the-badge&logo=object-oriented-programming&logoColor=white" alt="OOP" />
-<img src="https://img.shields.io/badge/Console-4EAA25?style=for-the-badge&logo=terminal&logoColor=white" alt="Console" />
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
+<img src="https://img.shields.io/badge/OOP-6C757D?style=flat-square&logo=object-oriented-programming&logoColor=white" alt="OOP" />
+<img src="https://img.shields.io/badge/Console-4EAA25?style=flat-square&logo=terminal&logoColor=white" alt="Console" />
 
 <br/><br/>
 
 <a href="https://github.com/NourEldeenMahmoud/Bank-Managment-System">
-  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository" />
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-#### 🤖 XPTracker-Bot
-**XP & Leveling Discord Bot**
-
-A Discord bot for managing XP, levels, and leaderboards with automatic role rewards, tracking both message and voice activity, and exposing a REST API for external integrations.
-
-<br/>
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="discord.py" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-<img src="https://img.shields.io/badge/REST%20API-FF6B6B?style=for-the-badge&logo=rest&logoColor=white" alt="REST API" />
-
-<br/><br/>
-
-<a href="https://github.com/NourEldeenMahmoud/XPTracker-Bot">
-  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository" />
+  <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
 </a>
 
 </td>
 </tr>
 </table>
 
-</div>
+<br/>
+
+### 🌐 Web Platforms
+
+<table>
+<tr>
+<td width="100%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+
+#### 🏨 Bookify — Hotel Reservation Platform
+**Complete Web Application for Hotel Reservations**
+
+• Room Search & Booking System<br/>
+• Online Payments & Admin Dashboard
+
+<br/>
+
+<img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
+<img src="https://img.shields.io/badge/MVC-6C757D?style=flat-square&logo=asp.net&logoColor=white" alt="MVC" />
+<img src="https://img.shields.io/badge/Entity%20Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="Entity Framework" />
+<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+<img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe" />
+
+<br/><br/>
+
+<a href="https://github.com/NourEldeenMahmoud/Bookify">
+  <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
+</a>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 📱 Mobile Applications
+
+<table>
+<tr>
+<td width="100%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+
+#### 📱 Blood Bank Mobile App — Cross Platform
+**Cross-Platform Integrated Blood Bank Platform**
+
+• Flutter Mobile App for Donors<br/>
+• REST API Integration & Real-time Notifications
+
+<br/>
+
+<img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
+<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET" />
+<img src="https://img.shields.io/badge/REST%20API-6C757D?style=flat-square&logo=rest&logoColor=white" alt="REST API" />
+
+<br/><br/>
+
+<a href="https://github.com/NourEldeenMahmoud/Blood-Bank-mobile-App">
+  <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
+</a>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 🤖 Bots & Automation
+
+<table>
+<tr>
+<td width="100%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+
+#### 🤖 XPTracker-Bot — Discord Bot
+**XP & Leveling Discord Bot**
+
+• XP Tracking & Leaderboards<br/>
+• Automatic Role Rewards & REST API
+
+<br/>
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/discord.py-5865F2?style=flat-square&logo=discord&logoColor=white" alt="discord.py" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+<img src="https://img.shields.io/badge/REST%20API-6C757D?style=flat-square&logo=rest&logoColor=white" alt="REST API" />
+
+<br/><br/>
+
+<a href="https://github.com/NourEldeenMahmoud/XPTracker-Bot">
+  <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
+</a>
+
+</td>
+</tr>
+</table>
 
 > 💡 **Note:** More projects coming soon! Check out my [repositories](https://github.com/NourEldeenMahmoud?tab=repositories) for the latest work.
 
