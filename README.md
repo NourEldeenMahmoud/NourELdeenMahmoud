@@ -72,7 +72,7 @@
 <div align="center" style="margin-bottom:26px;">
 <picture>
   <source media="(prefers-color-scheme: dark)"
-          srcset="https://raw.githubusercontent.com/NourEldeenMahmoud/NourELdeenMahmoud/main/output/pacman-contribution-graph-dark.svg">
+          srcset="https://raw.githubusercontent.com/NourEldeenMahmoud/NourELdeenMahmoud/main/output/pacman-contribution-graph.svg">
   <source media="(prefers-color-scheme: light)"
           srcset="https://raw.githubusercontent.com/NourEldeenMahmoud/NourELdeenMahmoud/main/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph"
