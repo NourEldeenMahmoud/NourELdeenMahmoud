@@ -163,6 +163,49 @@ A comprehensive hotel booking platform that allows searching for available rooms
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🏦 Bank Management System
+**Comprehensive Console-Based Banking System**
+
+A comprehensive bank management system built in C++ using OOP, providing a command-line interface to manage client accounts, deposits, withdrawals, transfers, currency exchange, and user administration with permission control.
+
+<br/>
+
+<img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+<img src="https://img.shields.io/badge/OOP-FF6B6B?style=for-the-badge&logo=object-oriented-programming&logoColor=white" alt="OOP" />
+<img src="https://img.shields.io/badge/Console-4EAA25?style=for-the-badge&logo=terminal&logoColor=white" alt="Console" />
+
+<br/><br/>
+
+<a href="https://github.com/NourEldeenMahmoud/Bank-Managment-System">
+  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository" />
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+#### 🤖 XPTracker-Bot
+**XP & Leveling Discord Bot**
+
+A Discord bot for managing XP, levels, and leaderboards with automatic role rewards, tracking both message and voice activity, and exposing a REST API for external integrations.
+
+<br/>
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="discord.py" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+<img src="https://img.shields.io/badge/REST%20API-FF6B6B?style=for-the-badge&logo=rest&logoColor=white" alt="REST API" />
+
+<br/><br/>
+
+<a href="https://github.com/NourEldeenMahmoud/XPTracker-Bot">
+  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository" />
+</a>
+
+</td>
+</tr>
 </table>
 
 </div>
