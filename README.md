@@ -118,7 +118,6 @@
   <h3>Let's build something amazing together!</h3>
   <br/>
   
- <div align="center">
   <a href="mailto:noureldeendev@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
@@ -131,12 +130,13 @@
   <a href="https://github.com/NourEldeenMahmoud">
     <img src="https://komarev.com/ghpvc/?username=NourEldeenMahmoud&label=Profile%20Views&color=6C7BFF&style=for-the-badge" alt="Profile Views"/>
   </a>
-</div>
   
+  <br/><br/>
   
   <h3 align="center">Crafting elegant solutions through clean, efficient code.</h3>
 </div>
 
+<br/>
 
 ---
 
