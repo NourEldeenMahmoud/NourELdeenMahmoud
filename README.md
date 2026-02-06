@@ -89,7 +89,7 @@
 <br/>
 
 <div align="center">
-  <h2>🚀 Featured Projects</h2>
+  <h2> Featured Projects</h2>
   <p><i>Some of the projects I enjoyed building and scaling.</i></p>
 </div>
 
@@ -217,10 +217,8 @@
 
 > 💡 **Note:** More projects coming soon! Check out my [repositories](https://github.com/NourEldeenMahmoud?tab=repositories) for the latest work.
 
+
 <br/>
-
----
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&fontSize=42&fontAlignY=72" alt="Footer"/>
 </div>
