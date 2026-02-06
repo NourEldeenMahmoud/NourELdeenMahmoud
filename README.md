@@ -95,8 +95,6 @@
 
 <br/>
 
-### 🖥️ Desktop Applications
-
 <table>
 <tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
@@ -143,15 +141,8 @@
 
 </td>
 </tr>
-</table>
-
-<br/>
-
-### 🌐 Web Platforms
-
-<table>
 <tr>
-<td width="100%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### 🏨 Bookify — Hotel Reservation Platform
 **Complete Web Application for Hotel Reservations**
@@ -174,16 +165,7 @@
 </a>
 
 </td>
-</tr>
-</table>
-
-<br/>
-
-### 📱 Mobile Applications
-
-<table>
-<tr>
-<td width="100%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### 📱 Blood Bank Mobile App — Cross Platform
 **Cross-Platform Integrated Blood Bank Platform**
@@ -207,15 +189,8 @@
 
 </td>
 </tr>
-</table>
-
-<br/>
-
-### 🤖 Bots & Automation
-
-<table>
 <tr>
-<td width="100%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### 🤖 XPTracker-Bot — Discord Bot
 **XP & Leveling Discord Bot**
