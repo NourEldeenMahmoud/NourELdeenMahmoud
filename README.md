@@ -107,10 +107,10 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET" />
-<img src="https://img.shields.io/badge/Windows%20Forms-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows Forms" />
-<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=dotnet" height="40" alt=".NET" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="40" alt="Windows Forms" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="40" alt="SQL Server" style="margin:0 5px"/>
 
 <br/><br/>
 
@@ -129,11 +129,11 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
-<img src="https://img.shields.io/badge/MVC-6C757D?style=flat-square&logo=asp.net&logoColor=white" alt="MVC" />
-<img src="https://img.shields.io/badge/Entity%20Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="Entity Framework" />
-<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
-<img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe" />
+<img src="https://skillicons.dev/icons?i=dotnet" height="40" alt="ASP.NET Core" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height="40" alt="MVC" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height="40" alt="Entity Framework" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="40" alt="SQL Server" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stripe/stripe-original.svg" height="40" alt="Stripe" style="margin:0 5px"/>
 
 <br/><br/>
 
@@ -154,11 +154,11 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
-<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET" />
-<img src="https://img.shields.io/badge/REST%20API-6C757D?style=flat-square&logo=rest&logoColor=white" alt="REST API" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" alt="Flutter" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="40" alt="Dart" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=dotnet" height="40" alt=".NET" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=rest" height="40" alt="REST API" style="margin:0 5px"/>
 
 <br/><br/>
 
@@ -177,10 +177,10 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/discord.py-5865F2?style=flat-square&logo=discord&logoColor=white" alt="discord.py" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-<img src="https://img.shields.io/badge/REST%20API-6C757D?style=flat-square&logo=rest&logoColor=white" alt="REST API" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg" height="40" alt="discord.py" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="40" alt="FastAPI" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=rest" height="40" alt="REST API" style="margin:0 5px"/>
 
 <br/><br/>
 
@@ -201,9 +201,8 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/OOP-6C757D?style=flat-square&logo=object-oriented-programming&logoColor=white" alt="OOP" />
-<img src="https://img.shields.io/badge/Console-4EAA25?style=flat-square&logo=terminal&logoColor=white" alt="Console" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terminal/terminal-original.svg" height="40" alt="Console" style="margin:0 5px"/>
 
 <br/><br/>
 
