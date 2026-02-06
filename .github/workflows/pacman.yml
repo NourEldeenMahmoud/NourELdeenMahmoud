@@ -39,22 +39,38 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          echo "Generating light theme graph..."
           python .github/scripts/generate_pacman.py --user NourEldeenMahmoud --output output/pacman-contribution-graph.svg
+          echo "Light theme graph generated successfully"
           
       - name: Generate dark mode Pac-Man contribution graph
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          echo "Generating dark theme graph..."
           python .github/scripts/generate_pacman.py --user NourEldeenMahmoud --output output/pacman-contribution-graph-dark.svg --theme dark
+          echo "Dark theme graph generated successfully"
+          
+      - name: Show generated files
+        run: |
+          echo "Generated files:"
+          ls -lh output/
+          echo "First 3 lines of SVG:"
+          head -n 3 output/pacman-contribution-graph.svg
           
       - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add output/
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No changes detected, forcing update..."
+            touch output/.last_update
+            git add output/.last_update
+            git commit -m "Force update Pac-Man contribution graph - $TIMESTAMP [skip ci]" || true
           else
-            git commit -m "Update Pac-Man contribution graph [skip ci]"
-            git push
+            echo "Changes detected, committing..."
+            git commit -m "Update Pac-Man contribution graph - $TIMESTAMP [skip ci]"
           fi
+          git push

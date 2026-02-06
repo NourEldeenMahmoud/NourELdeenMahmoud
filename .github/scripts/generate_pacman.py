@@ -228,6 +228,10 @@ def main():
     print(f"Fetching contributions for {args.user}...")
     contributions = get_contributions(args.user, token)
     
+    total = contributions['totalContributions']
+    num_weeks = len(contributions['weeks'])
+    print(f"Retrieved {total} total contributions across {num_weeks} weeks")
+    
     # Generate SVG
     print(f"Generating SVG with {args.theme} theme...")
     svg = generate_svg(contributions, args.theme)
@@ -237,6 +241,7 @@ def main():
         f.write(svg)
     
     print(f"SVG saved to {args.output}")
+    print(f"File size: {len(svg)} bytes")
 
 if __name__ == '__main__':
     main()
