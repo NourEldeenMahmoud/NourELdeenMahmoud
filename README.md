@@ -14,25 +14,6 @@
 
 ---
 
-<br/>
-
-##  Featured Projects
-
-<div align="center">
-
-| Project | Description | Tech Stack | Links |
-|:-------:|:-----------:|:----------:|:-----:|
-| **Project Alpha** | Enterprise-grade web solution with microservices architecture | C#, .NET, SQL Server | [🔗 Repo](https://github.com/NourEldeenMahmoud) • [🌐 Demo](#) |
-| **Project Beta** | Full-stack desktop application with modern UI/UX | C++, Qt, MongoDB | [🔗 Repo](https://github.com/NourEldeenMahmoud) • [📦 Download](#) |
-| **Automation Suite** | Advanced automation tools and bots for workflow optimization | Python, C#, Docker | [🔗 Repo](https://github.com/NourEldeenMahmoud) • [📖 Docs](#) |
-
-</div>
-
-> 💡 **Note:** More projects coming soon! Check out my [repositories](https://github.com/NourEldeenMahmoud?tab=repositories) for the latest work.
-
-<br/>
-
----
 
 <br/>
 
@@ -60,8 +41,10 @@
   <img src="https://skillicons.dev/icons?i=docker" height="56" alt="docker logo" style="margin:0 10px"/>
   <img src="https://skillicons.dev/icons?i=git" height="56" alt="git logo" style="margin:0 10px"/>
 
+<br/>
 
 </div>
+<br/>
 
 <!-- spacer (بین البلوكس) -->
 <div style="height:26px"></div>
@@ -110,7 +93,25 @@
 <div style="height:28px"></div>
 
 ---
+<br/>
 
+##  Featured Projects
+
+<div align="center">
+
+| Project | Description | Tech Stack | Links |
+|:-------:|:-----------:|:----------:|:-----:|
+| **Project Alpha** | Enterprise-grade web solution with microservices architecture | C#, .NET, SQL Server | [🔗 Repo](https://github.com/NourEldeenMahmoud) • [🌐 Demo](#) |
+| **Project Beta** | Full-stack desktop application with modern UI/UX | C++, Qt, MongoDB | [🔗 Repo](https://github.com/NourEldeenMahmoud) • [📦 Download](#) |
+| **Automation Suite** | Advanced automation tools and bots for workflow optimization | Python, C#, Docker | [🔗 Repo](https://github.com/NourEldeenMahmoud) • [📖 Docs](#) |
+
+</div>
+
+> 💡 **Note:** More projects coming soon! Check out my [repositories](https://github.com/NourEldeenMahmoud?tab=repositories) for the latest work.
+
+<br/>
+
+---
 
 ## 🤝 Contact & Connect
 
