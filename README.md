@@ -76,7 +76,7 @@
   <source media="(prefers-color-scheme: light)"
           srcset="https://raw.githubusercontent.com/NourEldeenMahmoud/NourELdeenMahmoud/main/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph"
-       src="https://raw.githubusercontent.com/NourEldeenMahmoud/NourELdeenMahmoud/main/output/pacman-contribution-graph.svg"
+       src="https://raw.githubusercontent.com/NourEldeenMahmoud/NourELdeenMahmoud/main/output/pacman-contribution-graph-dark.svg"
        style="max-width:100%;height:auto;border-radius:4px;box-shadow:0 6px 18px rgba(0,0,0,0.35);" />
 </picture>
 
