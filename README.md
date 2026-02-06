@@ -121,29 +121,6 @@
 </td>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
-#### 🏦 Bank Management System — Console App
-**Comprehensive Console-Based Banking System**
-
-• Account Management & Transactions<br/>
-• Currency Exchange & User Administration
-
-<br/>
-
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/OOP-6C757D?style=flat-square&logo=object-oriented-programming&logoColor=white" alt="OOP" />
-<img src="https://img.shields.io/badge/Console-4EAA25?style=flat-square&logo=terminal&logoColor=white" alt="Console" />
-
-<br/><br/>
-
-<a href="https://github.com/NourEldeenMahmoud/Bank-Managment-System">
-  <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
-</a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
-
 #### 🏨 Bookify — Hotel Reservation Platform
 **Complete Web Application for Hotel Reservations**
 
@@ -208,6 +185,29 @@
 <br/><br/>
 
 <a href="https://github.com/NourEldeenMahmoud/XPTracker-Bot">
+  <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
+</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+
+#### 🏦 Bank Management System — Console App
+**Comprehensive Console-Based Banking System**
+
+• Account Management & Transactions<br/>
+• Currency Exchange & User Administration
+
+<br/>
+
+<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
+<img src="https://img.shields.io/badge/OOP-6C757D?style=flat-square&logo=object-oriented-programming&logoColor=white" alt="OOP" />
+<img src="https://img.shields.io/badge/Console-4EAA25?style=flat-square&logo=terminal&logoColor=white" alt="Console" />
+
+<br/><br/>
+
+<a href="https://github.com/NourEldeenMahmoud/Bank-Managment-System">
   <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
 </a>
 
