@@ -109,7 +109,7 @@
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" style="margin:0 5px"/>
 <img src="https://skillicons.dev/icons?i=dotnet" height="40" alt=".NET" style="margin:0 5px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="40" alt="Windows Forms" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=windows" height="40" alt="Windows Forms" style="margin:0 5px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="40" alt="SQL Server" style="margin:0 5px"/>
 
 <br/><br/>
@@ -130,10 +130,9 @@
 <br/>
 
 <img src="https://skillicons.dev/icons?i=dotnet" height="40" alt="ASP.NET Core" style="margin:0 5px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height="40" alt="MVC" style="margin:0 5px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height="40" alt="Entity Framework" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=cs" height="40" alt="C#" style="margin:0 5px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="40" alt="SQL Server" style="margin:0 5px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/stripe/stripe-original.svg" height="40" alt="Stripe" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=stripe" height="40" alt="Stripe" style="margin:0 5px"/>
 
 <br/><br/>
 
@@ -158,7 +157,6 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="40" alt="Dart" style="margin:0 5px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" style="margin:0 5px"/>
 <img src="https://skillicons.dev/icons?i=dotnet" height="40" alt=".NET" style="margin:0 5px"/>
-<img src="https://skillicons.dev/icons?i=rest" height="40" alt="REST API" style="margin:0 5px"/>
 
 <br/><br/>
 
@@ -178,9 +176,8 @@
 <br/>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" style="margin:0 5px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg" height="40" alt="discord.py" style="margin:0 5px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="40" alt="FastAPI" style="margin:0 5px"/>
-<img src="https://skillicons.dev/icons?i=rest" height="40" alt="REST API" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=discord" height="40" alt="discord.py" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=fastapi" height="40" alt="FastAPI" style="margin:0 5px"/>
 
 <br/><br/>
 
@@ -202,7 +199,7 @@
 <br/>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" style="margin:0 5px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terminal/terminal-original.svg" height="40" alt="Console" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=bash" height="40" alt="Console" style="margin:0 5px"/>
 
 <br/><br/>
 
@@ -217,7 +214,6 @@
 > 💡 **Note:** More projects coming soon! Check out my [repositories](https://github.com/NourEldeenMahmoud?tab=repositories) for the latest work.
 
 
-<br/>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&fontSize=42&fontAlignY=72" alt="Footer"/>
 </div>
