@@ -11,24 +11,6 @@
   <img src="https://readme-typing-svg.vercel.app/?font=Fira+Code&size=22&duration=3000&pause=1000&color=6C7BFF&center=true&vCenter=true&width=1000&lines=Crafting+elegant+solutions+through+clean+code;Building+reliable+and+efficient+software;Turning+ideas+into+production-ready+systems" alt="Typing SVG" />
 </div>
 
-<br/>
-
-<div align="center">
-  <a href="mailto:noureldeendev@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  <a href="https://www.linkedin.com/in/nour-eldeen-eg/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/NourEldeenMahmoud">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://github.com/NourEldeenMahmoud">
-    <img src="https://komarev.com/ghpvc/?username=NourEldeenMahmoud&label=Profile%20Views&color=6C7BFF&style=for-the-badge" alt="Profile Views"/>
-  </a>
-</div>
-
-<br/>
 
 ---
 
@@ -87,9 +69,6 @@
 
 ---
 
-<br/>
-
-## 📊 Stats Section
 
 <div align="center">
   <!-- Streak Card -->
@@ -139,7 +118,6 @@
 
 ---
 
-<br/>
 
 ## 🤝 Contact & Connect
 
@@ -147,6 +125,7 @@
   <h3>Let's build something amazing together!</h3>
   <br/>
   
+ <div align="center">
   <a href="mailto:noureldeendev@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
@@ -156,6 +135,10 @@
   <a href="https://github.com/NourEldeenMahmoud">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
+  <a href="https://github.com/NourEldeenMahmoud">
+    <img src="https://komarev.com/ghpvc/?username=NourEldeenMahmoud&label=Profile%20Views&color=6C7BFF&style=for-the-badge" alt="Profile Views"/>
+  </a>
+</div>
   
   <br/><br/>
   
