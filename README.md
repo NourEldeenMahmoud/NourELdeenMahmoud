@@ -90,66 +90,82 @@
 
 ## 🚀 Featured Projects
 
+<div align="center">
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🩸 Blood Bank Management System
-**نظام ديسكتوب متكامل لإدارة بنك الدم**
+#### 🩸 Blood Bank Management System
+**Integrated Desktop System for Blood Bank Management**
 
-نظام شامل لإدارة بنك الدم يتضمن تسجيل المتبرعين، متابعة مخزون أكياس الدم، إدارة المرضى وطلبات نقل الدم، مع داشبورد لعرض إحصائيات وتحليلات في الوقت الحقيقي.
-
-<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET" />
-<img src="https://img.shields.io/badge/Windows%20Forms-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows Forms" />
-<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+A comprehensive desktop system for managing blood banks, including donor registration, blood bag inventory tracking, patient management, blood transfer requests, and a real-time dashboard for statistics and analytics.
 
 <br/>
 
-[📂 Repository](https://github.com/NourEldeenMahmoud/BBMS-Project)
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+<img src="https://img.shields.io/badge/Windows%20Forms-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Forms" />
+<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+
+<br/><br/>
+
+<a href="https://github.com/NourEldeenMahmoud/BBMS-Project">
+  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository" />
+</a>
 
 </td>
 <td width="50%" valign="top">
 
-### 📱 Blood Bank Mobile App
-**منصة متكاملة لبنك الدم - Cross Platform**
+#### 📱 Blood Bank Mobile App
+**Cross-Platform Integrated Blood Bank Platform**
 
-منصة متكاملة تتكون من تطبيق موبايل Flutter للمتبرعين، وتطبيق ديسكتوب .NET للإداريين، وREST API للتكامل بينهم، لدعم حجز المواعيد، تتبع التبرعات، والإشعارات اللحظية.
-
-<img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
-<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET" />
-<img src="https://img.shields.io/badge/REST%20API-FF6B6B?style=flat-square&logo=rest&logoColor=white" alt="REST API" />
+An integrated platform consisting of a Flutter mobile app for donors, a .NET desktop app for administrators, and a REST API for integration, supporting appointment booking, donation tracking, and real-time notifications.
 
 <br/>
 
-[📂 Repository](https://github.com/NourEldeenMahmoud/Blood-Bank-mobile-App)
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+<img src="https://img.shields.io/badge/REST%20API-FF6B6B?style=for-the-badge&logo=rest&logoColor=white" alt="REST API" />
+
+<br/><br/>
+
+<a href="https://github.com/NourEldeenMahmoud/Blood-Bank-mobile-App">
+  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository" />
+</a>
 
 </td>
 </tr>
 <tr>
 <td colspan="2" valign="top">
 
-### 🏨 Bookify – Hotel Reservation Platform
-**تطبيق ويب كامل لحجز الفنادق**
+#### 🏨 Bookify – Hotel Reservation Platform
+**Complete Web Application for Hotel Reservations**
 
-منصة حجز فنادق متكاملة تسمح بالبحث عن الغرف المتاحة، عرض تفاصيل الغرفة، إنشاء حجوزات، ومعالجة المدفوعات أونلاين، مع لوحة تحكم لإدارة الغرف، الحجوزات، وبيانات العملاء.
-
-<img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
-<img src="https://img.shields.io/badge/MVC-FF6B6B?style=flat-square&logo=asp.net&logoColor=white" alt="MVC" />
-<img src="https://img.shields.io/badge/Entity%20Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="Entity Framework" />
-<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
-<img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe" />
-<img src="https://img.shields.io/badge/SendGrid-1A82E2?style=flat-square&logo=sendgrid&logoColor=white" alt="SendGrid" />
+A comprehensive hotel booking platform that allows searching for available rooms, viewing room details, creating bookings, processing online payments, and includes an admin panel for managing rooms, bookings, and customer data.
 
 <br/>
 
-[📂 Repository](https://github.com/NourEldeenMahmoud/Bookify)
+<img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
+<img src="https://img.shields.io/badge/MVC-FF6B6B?style=for-the-badge&logo=asp.net&logoColor=white" alt="MVC" />
+<img src="https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Entity Framework" />
+<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+<img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe" />
+<img src="https://img.shields.io/badge/SendGrid-1A82E2?style=for-the-badge&logo=sendgrid&logoColor=white" alt="SendGrid" />
+
+<br/><br/>
+
+<a href="https://github.com/NourEldeenMahmoud/Bookify">
+  <img src="https://img.shields.io/badge/View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repository" />
+</a>
 
 </td>
 </tr>
 </table>
+
+</div>
 
 > 💡 **Note:** More projects coming soon! Check out my [repositories](https://github.com/NourEldeenMahmoud?tab=repositories) for the latest work.
 
