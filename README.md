@@ -142,6 +142,8 @@
 </a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### 📱 Blood Bank Mobile App — Cross Platform
@@ -165,8 +167,6 @@
 </a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### 🤖 XPTracker-Bot — Discord Bot
