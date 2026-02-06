@@ -5,6 +5,11 @@ on:
     # Runs every 6 hours
     - cron: '0 */6 * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'output/**'
 
 jobs:
   update:
@@ -13,6 +18,9 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
       
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -44,5 +52,9 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add output/
-          git diff --staged --quiet || git commit -m "Update Pac-Man contribution graph [skip ci]" || exit 0
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update Pac-Man contribution graph [skip ci]"
+            git push
+          fi
