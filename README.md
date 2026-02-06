@@ -1,19 +1,44 @@
-<h1 align="center">Hi 👋, I'm Nour Eldeen</h1>
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Nour+Eldeen+Mahmoud!;+Software+Engineer+💻;+Problem+Solver+🚀" alt="Typing SVG" />
+</div>
+
+<br/>
+
+<!-- Hero Banner -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=header&text=Nour%20Eldeen%20Mahmoud&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+</div>
 
 <br/>
 
 <!-- About Me -->
 <div align="center" style="max-width:850px;margin:0 auto;">
-  <h3>🌟 About Me</h3>
-  <p style="line-height:1.6;">
-I'm a Software Engineer experienced in architecting web solution, full-stack desktop systems, and automation tools/bots.
-I work mainly with C++, C#, and .NET, applying clean architecture principles and strong problem-solving skills to deliver reliable and efficient software.
+  <h2>🌟 About Me</h2>
+  <p style="line-height:1.8;font-size:16px;">
+    I'm a <strong>Software Engineer</strong> experienced in architecting web solutions, full-stack desktop systems, and automation tools/bots.
+    I work mainly with <strong>C++</strong>, <strong>C#</strong>, and <strong>.NET</strong>, applying clean architecture principles and strong problem-solving skills to deliver reliable and efficient software.
+    Passionate about writing clean, maintainable code and building solutions that make a difference.
   </p>
 </div>
 
-<!-- spacer -->
-<div style="height:28px"></div>
+<br/>
 
+<!-- Quick Facts -->
+<div align="center">
+  <h2>⚡ Quick Facts</h2>
+  <ul style="list-style:none;padding:0;max-width:600px;margin:0 auto;text-align:left;">
+    <li>💼 <strong>Role:</strong> Software Engineer specializing in Desktop & Web Applications</li>
+    <li>🎯 <strong>Focus:</strong> Clean Architecture, Problem Solving, Automation</li>
+    <li>🌱 <strong>Currently:</strong> Expanding expertise in modern software development practices</li>
+    <li>💡 <strong>Interests:</strong> Building efficient systems, learning new technologies</li>
+  </ul>
+</div>
+
+<br/>
+
+<hr style="border:0;height:2px;background:linear-gradient(90deg,transparent,#6C7BFF,#3b82f6,#06b6d4,transparent);border-radius:4px;margin:32px 0;">
+
+<!-- Tech & Tools -->
 ### Tech & Tools
 <div align="center" style="margin-bottom:18px;">
   <!-- Desktop / Backend -->
@@ -44,7 +69,50 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 <!-- spacer (بین البلوكس) -->
 <div style="height:26px"></div>
 
+<!-- Currently Learning -->
+<div align="center">
+  <h2>📚 Currently Learning</h2>
+  <p style="font-size:15px;color:#888;">
+    Expanding my knowledge in modern software development practices, cloud technologies, and advanced system design patterns.
+  </p>
+</div>
 
+<br/>
+
+<hr style="border:0;height:2px;background:linear-gradient(90deg,transparent,#6C7BFF,#3b82f6,#06b6d4,transparent);border-radius:4px;margin:32px 0;">
+
+<!-- Featured Projects -->
+<div align="center">
+  <h2>🚀 Featured Projects</h2>
+  <table style="width:100%;max-width:800px;margin:0 auto;border-collapse:collapse;">
+    <thead>
+      <tr>
+        <th style="padding:12px;text-align:left;border-bottom:2px solid #6C7BFF;">Project</th>
+        <th style="padding:12px;text-align:left;border-bottom:2px solid #6C7BFF;">Description</th>
+        <th style="padding:12px;text-align:left;border-bottom:2px solid #6C7BFF;">Tech Stack</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding:12px;border-bottom:1px solid #333;"><strong>Project Name</strong></td>
+        <td style="padding:12px;border-bottom:1px solid #333;">Brief description of your project</td>
+        <td style="padding:12px;border-bottom:1px solid #333;">C#, .NET</td>
+      </tr>
+      <tr>
+        <td style="padding:12px;border-bottom:1px solid #333;"><strong>Project Name</strong></td>
+        <td style="padding:12px;border-bottom:1px solid #333;">Brief description of your project</td>
+        <td style="padding:12px;border-bottom:1px solid #333;">C++, Python</td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="margin-top:16px;font-size:14px;color:#888;">
+    <em>More projects available on my GitHub profile</em>
+  </p>
+</div>
+
+<br/>
+
+<hr style="border:0;height:2px;background:linear-gradient(90deg,transparent,#6C7BFF,#3b82f6,#06b6d4,transparent);border-radius:4px;margin:32px 0;">
 
 <!-- Stats Section -->
 <div align="center">
@@ -59,7 +127,6 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=NourEldeenMahmoud&theme=dracula&title=Stars,Commit,Followers,Issues,PullRequest,Repositories&margin-w=15&margin-h=15" />
   <br>
   <br>
-
 
 
 
@@ -84,17 +151,56 @@ I work mainly with C++, C#, and .NET, applying clean architecture principles and
 <!-- final spacer before footer/contact -->
 <div style="height:28px"></div>
 
+<hr style="border:0;height:2px;background:linear-gradient(90deg,transparent,#6C7BFF,#3b82f6,#06b6d4,transparent);border-radius:4px;margin:32px 0;">
 
-<hr style="border:0;height:2px;background:linear-gradient(90deg,#6C7BFF,#3b82f6,#06b6d4);border-radius:4px;margin:32px 0;">
+<!-- Extra Information (Collapsible) -->
+<details align="center">
+  <summary style="cursor:pointer;font-size:18px;font-weight:bold;margin:20px 0;">📋 More About Me</summary>
+  <div style="max-width:700px;margin:20px auto;text-align:left;padding:20px;background:rgba(108,123,255,0.1);border-radius:8px;">
+    <ul style="line-height:1.8;">
+      <li>🎓 <strong>Education:</strong> Background in Software Engineering</li>
+      <li>💻 <strong>Specialization:</strong> Desktop Applications, Web Solutions, Automation Tools</li>
+      <li>🔧 <strong>Architecture:</strong> Clean Architecture, SOLID Principles, Design Patterns</li>
+      <li>📊 <strong>Experience:</strong> Building scalable and maintainable software solutions</li>
+      <li>🌟 <strong>Philosophy:</strong> Code quality and user experience go hand in hand</li>
+    </ul>
+  </div>
+</details>
 
-<!-- CONTACT (moved to the bottom) -->
-### 🤝 Let's Connect
+<br/>
+
+<!-- Connect With Me -->
 <div align="center">
-  <a href="mailto:noureldeendev@gmail.com"><img src="https://skillicons.dev/icons?i=gmail"></a>
-  <a href="https://www.linkedin.com/in/nour-eldeen-eg/"><img src="https://skillicons.dev/icons?i=linkedin"></a>
-  <a href="https://github.com/NourEldeenMahmoud"><img src="https://skillicons.dev/icons?i=github"></a>
+  <h2>🤝 Connect With Me</h2>
+  <div style="margin:20px 0;">
+    <a href="mailto:noureldeendev@gmail.com">
+      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" style="margin:5px;"/>
+    </a>
+    <a href="https://www.linkedin.com/in/nour-eldeen-eg/">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" style="margin:5px;"/>
+    </a>
+    <a href="https://github.com/NourEldeenMahmoud">
+      <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" style="margin:5px;"/>
+    </a>
+  </div>
+  <div style="margin-top:20px;">
+    <a href="mailto:noureldeendev@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" alt="Gmail" style="margin:5px;"/></a>
+    <a href="https://www.linkedin.com/in/nour-eldeen-eg/"><img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" style="margin:5px;"/></a>
+    <a href="https://github.com/NourEldeenMahmoud"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" style="margin:5px;"/></a>
+  </div>
 </div>
 
-<h3 align="center">Crafting elegant solutions through clean, efficient code.</h3>
+<br/>
 
-
+<!-- Footer -->
+<div align="center">
+  <hr style="border:0;height:2px;background:linear-gradient(90deg,transparent,#6C7BFF,#3b82f6,#06b6d4,transparent);border-radius:4px;margin:32px 0;">
+  <h3 style="font-style:italic;color:#888;margin:20px 0;">
+    Crafting elegant solutions through clean, efficient code.
+  </h3>
+  <p style="font-size:14px;color:#666;margin-top:10px;">
+    <em>"The best code is not just code that works, but code that others can understand and maintain."</em>
+  </p>
+  <br/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=60&section=footer&text=Thanks+for+visiting!+✨&fontSize=20&fontColor=fff&animation=twinkling&fontAlignY=35"/>
+</div>
