@@ -90,56 +90,66 @@
 
 ## 🚀 Featured Projects
 
-<div align="center">
-
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-#### 🏢 Project Alpha
-Enterprise-grade web solution with microservices architecture
+### 🩸 Blood Bank Management System
+**نظام ديسكتوب متكامل لإدارة بنك الدم**
 
-<img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white" alt=".NET" />
-<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+نظام شامل لإدارة بنك الدم يتضمن تسجيل المتبرعين، متابعة مخزون أكياس الدم، إدارة المرضى وطلبات نقل الدم، مع داشبورد لعرض إحصائيات وتحليلات في الوقت الحقيقي.
+
+<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET" />
+<img src="https://img.shields.io/badge/Windows%20Forms-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows Forms" />
+<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
 
 <br/>
 
-[📂 Repo](https://github.com/NourEldeenMahmoud) • [🌐 Demo](#)
+[📂 Repository](https://github.com/NourEldeenMahmoud/BBMS-Project)
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-#### 💻 Project Beta
-Full-stack desktop application with modern UI/UX
+### 📱 Blood Bank Mobile App
+**منصة متكاملة لبنك الدم - Cross Platform**
 
-<img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="C++" />
-<img src="https://img.shields.io/badge/Qt-41CD52?style=flat&logo=qt&logoColor=white" alt="Qt" />
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" alt="MongoDB" />
+منصة متكاملة تتكون من تطبيق موبايل Flutter للمتبرعين، وتطبيق ديسكتوب .NET للإداريين، وREST API للتكامل بينهم، لدعم حجز المواعيد، تتبع التبرعات، والإشعارات اللحظية.
+
+<img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
+<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET" />
+<img src="https://img.shields.io/badge/REST%20API-FF6B6B?style=flat-square&logo=rest&logoColor=white" alt="REST API" />
 
 <br/>
 
-[📂 Repo](https://github.com/NourEldeenMahmoud) • [📦 Download](#)
+[📂 Repository](https://github.com/NourEldeenMahmoud/Blood-Bank-mobile-App)
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td colspan="2" valign="top">
 
-#### 🤖 Automation Suite
-Advanced automation tools and bots for workflow optimization
+### 🏨 Bookify – Hotel Reservation Platform
+**تطبيق ويب كامل لحجز الفنادق**
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
+منصة حجز فنادق متكاملة تسمح بالبحث عن الغرف المتاحة، عرض تفاصيل الغرفة، إنشاء حجوزات، ومعالجة المدفوعات أونلاين، مع لوحة تحكم لإدارة الغرف، الحجوزات، وبيانات العملاء.
+
+<img src="https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Core" />
+<img src="https://img.shields.io/badge/MVC-FF6B6B?style=flat-square&logo=asp.net&logoColor=white" alt="MVC" />
+<img src="https://img.shields.io/badge/Entity%20Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="Entity Framework" />
+<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+<img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe" />
+<img src="https://img.shields.io/badge/SendGrid-1A82E2?style=flat-square&logo=sendgrid&logoColor=white" alt="SendGrid" />
 
 <br/>
 
-[📂 Repo](https://github.com/NourEldeenMahmoud) • [📖 Docs](#)
+[📂 Repository](https://github.com/NourEldeenMahmoud/Bookify)
 
 </td>
 </tr>
 </table>
-
-</div>
 
 > 💡 **Note:** More projects coming soon! Check out my [repositories](https://github.com/NourEldeenMahmoud?tab=repositories) for the latest work.
 
@@ -149,6 +159,4 @@ Advanced automation tools and bots for workflow optimization
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&fontSize=42&fontAlignY=72" alt="Footer"/>
-  <p>Made with ❤️ by Nour Eldeen</p>
-  <p><sub>✨ Thanks for visiting my profile!</sub></p>
 </div>
