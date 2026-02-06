@@ -66,7 +66,6 @@
 <!-- spacer (بین البلوكس) -->
 <div style="height:26px"></div>
 
----
 
 
 <div align="center">
@@ -81,11 +80,6 @@
 <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=NourEldeenMahmoud&theme=dracula&title=Stars,Commit,Followers,Issues,PullRequest,Repositories&margin-w=15&margin-h=15" />
   <br>
   <br>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NourEldeenMahmoud&show_icons=true&theme=dracula&hide_border=false&border_radius=10&include_all_commits=true&count_private=true" alt="GitHub Stats" height="200"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NourEldeenMahmoud&layout=compact&theme=dracula&hide_border=false&border_radius=10" alt="Top Languages" height="200"/>
-</div>
 
 </div>
 
@@ -139,12 +133,10 @@
   </a>
 </div>
   
-  <br/><br/>
   
   <h3 align="center">Crafting elegant solutions through clean, efficient code.</h3>
 </div>
 
-<br/>
 
 ---
 
