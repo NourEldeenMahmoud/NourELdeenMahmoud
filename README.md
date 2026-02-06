@@ -107,9 +107,9 @@
 
 <br/>
 
+<img src="https://skillicons.dev/icons?i=windows" height="40" alt="Desktop" style="margin:0 5px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" style="margin:0 5px"/>
 <img src="https://skillicons.dev/icons?i=dotnet" height="40" alt=".NET" style="margin:0 5px"/>
-<img src="https://skillicons.dev/icons?i=windows" height="40" alt="Windows Forms" style="margin:0 5px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="40" alt="SQL Server" style="margin:0 5px"/>
 
 <br/><br/>
@@ -129,6 +129,7 @@
 
 <br/>
 
+<img src="https://skillicons.dev/icons?i=html" height="40" alt="Web" style="margin:0 5px"/>
 <img src="https://skillicons.dev/icons?i=dotnet" height="40" alt="ASP.NET Core" style="margin:0 5px"/>
 <img src="https://skillicons.dev/icons?i=cs" height="40" alt="C#" style="margin:0 5px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="40" alt="SQL Server" style="margin:0 5px"/>
@@ -153,6 +154,7 @@
 
 <br/>
 
+<img src="https://skillicons.dev/icons?i=android" height="40" alt="Mobile" style="margin:0 5px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" height="40" alt="Flutter" style="margin:0 5px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" height="40" alt="Dart" style="margin:0 5px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" style="margin:0 5px"/>
@@ -175,8 +177,8 @@
 
 <br/>
 
+<img src="https://skillicons.dev/icons?i=discord" height="40" alt="Bot" style="margin:0 5px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" style="margin:0 5px"/>
-<img src="https://skillicons.dev/icons?i=discord" height="40" alt="discord.py" style="margin:0 5px"/>
 <img src="https://skillicons.dev/icons?i=fastapi" height="40" alt="FastAPI" style="margin:0 5px"/>
 
 <br/><br/>
@@ -198,8 +200,8 @@
 
 <br/>
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" style="margin:0 5px"/>
 <img src="https://skillicons.dev/icons?i=bash" height="40" alt="Console" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" style="margin:0 5px"/>
 
 <br/><br/>
 
