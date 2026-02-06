@@ -16,7 +16,7 @@
 
 <br/>
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 <div align="center">
 
@@ -62,7 +62,6 @@
 
 
 </div>
-<br>
 
 <!-- spacer (بین البلوكس) -->
 <div style="height:26px"></div>
