@@ -88,40 +88,60 @@
 ---
 <br/>
 
-##  Featured Projects
+## 🚀 Featured Projects
 
 <div align="center">
 
-| Project | Description | Tech Stack | Links |
-|:-------:|:-----------:|:----------:|:-----:|
-| **Project Alpha** | Enterprise-grade web solution with microservices architecture | C#, .NET, SQL Server | [🔗 Repo](https://github.com/NourEldeenMahmoud) • [🌐 Demo](#) |
-| **Project Beta** | Full-stack desktop application with modern UI/UX | C++, Qt, MongoDB | [🔗 Repo](https://github.com/NourEldeenMahmoud) • [📦 Download](#) |
-| **Automation Suite** | Advanced automation tools and bots for workflow optimization | Python, C#, Docker | [🔗 Repo](https://github.com/NourEldeenMahmoud) • [📖 Docs](#) |
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### 🏢 Project Alpha
+Enterprise-grade web solution with microservices architecture
+
+<img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white" alt=".NET" />
+<img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white" alt="SQL Server" />
+
+<br/>
+
+[📂 Repo](https://github.com/NourEldeenMahmoud) • [🌐 Demo](#)
+
+</td>
+<td width="33%" valign="top">
+
+#### 💻 Project Beta
+Full-stack desktop application with modern UI/UX
+
+<img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="C++" />
+<img src="https://img.shields.io/badge/Qt-41CD52?style=flat&logo=qt&logoColor=white" alt="Qt" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" alt="MongoDB" />
+
+<br/>
+
+[📂 Repo](https://github.com/NourEldeenMahmoud) • [📦 Download](#)
+
+</td>
+<td width="33%" valign="top">
+
+#### 🤖 Automation Suite
+Advanced automation tools and bots for workflow optimization
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
+
+<br/>
+
+[📂 Repo](https://github.com/NourEldeenMahmoud) • [📖 Docs](#)
+
+</td>
+</tr>
+</table>
 
 </div>
 
 > 💡 **Note:** More projects coming soon! Check out my [repositories](https://github.com/NourEldeenMahmoud?tab=repositories) for the latest work.
-
-<br/>
-
----
-
-## 🤝 Contact & Connect
-
-<div align="center">
-  <a href="mailto:noureldeendev@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  <a href="https://www.linkedin.com/in/nour-eldeen-eg/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/NourEldeenMahmoud">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://github.com/NourEldeenMahmoud">
-    <img src="https://komarev.com/ghpvc/?username=NourEldeenMahmoud&label=Profile%20Views&color=6C7BFF&style=for-the-badge" alt="Profile Views"/>
-  </a>
-</div>
 
 <br/>
 
