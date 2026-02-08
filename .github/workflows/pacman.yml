@@ -1,76 +1,31 @@
-name: Update Pac-Man Contribution Graph
+name: generate pacman game
 
 on:
-  schedule:
-    # Runs every 6 hours
-    - cron: '0 */6 * * *'
-  workflow_dispatch:
-  push:
+  schedule: # Run automatically every 24 hours
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allows manual triggering
+  push: # Runs on every push to the main branch
     branches:
       - main
-    paths-ignore:
-      - 'output/**'
 
 jobs:
-  update:
-    runs-on: ubuntu-latest
+  generate:
     permissions:
       contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
     steps:
-      - uses: actions/checkout@v4
+      - name: generate pacman-contribution-graph.svg
+        uses: abozanona/pacman-contribution-graph@main
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
-      
-      - name: Setup Python
-        uses: actions/setup-python@v4
+          github_user_name: ${{ github.repository_owner }}
+
+      # Push the generated SVG to the output branch
+      - name: push pacman-contribution-graph.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          python-version: '3.x'
-      
-      - name: Install dependencies
-        run: |
-          pip install requests pygments
-      
-      - name: Create output directory
-        run: |
-          mkdir -p output
-      
-      - name: Generate Pac-Man contribution graph
+          target_branch: output
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "Generating light theme graph..."
-          python .github/scripts/generate_pacman.py --user NourEldeenMahmoud --output output/pacman-contribution-graph.svg
-          echo "Light theme graph generated successfully"
-          
-      - name: Generate dark mode Pac-Man contribution graph
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "Generating dark theme graph..."
-          python .github/scripts/generate_pacman.py --user NourEldeenMahmoud --output output/pacman-contribution-graph-dark.svg --theme dark
-          echo "Dark theme graph generated successfully"
-          
-      - name: Show generated files
-        run: |
-          echo "Generated files:"
-          ls -lh output/
-          echo "First 3 lines of SVG:"
-          head -n 3 output/pacman-contribution-graph.svg
-          
-      - name: Commit and push
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add output/
-          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-          if git diff --staged --quiet; then
-            echo "No changes detected, forcing update..."
-            touch output/.last_update
-            git add output/.last_update
-            git commit -m "Force update Pac-Man contribution graph - $TIMESTAMP [skip ci]" || true
-          else
-            echo "Changes detected, committing..."
-            git commit -m "Update Pac-Man contribution graph - $TIMESTAMP [skip ci]"
-          fi
-          git push
