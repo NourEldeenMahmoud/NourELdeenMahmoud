@@ -62,8 +62,12 @@ def get_contributions(username, token=None):
     
     return data['data']['user']['contributionsCollection']['contributionCalendar']
 
-def generate_svg(contributions, theme='light'):
-    """Generate animated Pac-Man SVG"""
+def generate_svg(contributions, theme='light', cell_size=8, cell_gap=1, single_color=False):
+    """Generate animated Pac-Man SVG.
+    cell_size: size of each square (default 8 = smaller grid).
+    cell_gap: gap between squares.
+    single_color: if True, all contribution levels use the same green (no gradient).
+    """
     weeks = contributions['weeks']
     total_contributions = contributions['totalContributions']
     
@@ -72,20 +76,20 @@ def generate_svg(contributions, theme='light'):
         bg_color = '#0d1117'
         grid_color = '#161b22'
         dot_color = '#39d353'
+        single_fill = '#39d353'
         pacman_color = '#ffd700'
         text_color = '#c9d1d9'
     else:
         bg_color = '#ffffff'
         grid_color = '#ebedf0'
         dot_color = '#40c463'
+        single_fill = '#40c463'
         pacman_color = '#ffd700'
         text_color = '#24292f'
     
     # Calculate grid dimensions
     num_weeks = len(weeks)
     days_per_week = 7
-    cell_size = 11
-    cell_gap = 2
     cell_total = cell_size + cell_gap
     
     width = num_weeks * cell_total + 20
@@ -123,6 +127,8 @@ def generate_svg(contributions, theme='light'):
     # Calculate animation duration (20 seconds for full journey)
     animation_duration = 20
     pacman_row = 3  # Row where Pac-Man moves (middle row)
+    pacman_r = min(5.5, (cell_size - 0.5) / 2)
+    pacman_center = pacman_r + 0.5
     
     # Generate SVG
     svg_parts = []
@@ -143,7 +149,7 @@ def generate_svg(contributions, theme='light'):
       }}
       .pacman-mouth {{
         animation: pacman-mouth 0.15s ease-in-out infinite;
-        transform-origin: 5.5px 5.5px;
+        transform-origin: {pacman_center}px {pacman_center}px;
       }}
     </style>
   </defs>
@@ -161,20 +167,18 @@ def generate_svg(contributions, theme='light'):
             
             # Draw cell
             if level > 0:
-                intensity = level / 4.0
-                if theme == 'light':
-                    # Light theme: green shades
-                    r = int(64 + (67 - 64) * intensity)
-                    g = int(196 + (199 - 196) * intensity)
-                    b = int(99 + (102 - 99) * intensity)
-                    color = f'rgb({r}, {g}, {b})'
+                if single_color:
+                    color = single_fill
                 else:
-                    # Dark theme: green shades
-                    r = int(57)
-                    g = int(57 + (83 - 57) * intensity)
-                    b = int(83)
-                    color = f'rgb({r}, {g}, {b})'
-                
+                    intensity = level / 4.0
+                    if theme == 'light':
+                        r = int(64 + (67 - 64) * intensity)
+                        g = int(196 + (199 - 196) * intensity)
+                        b = int(99 + (102 - 99) * intensity)
+                        color = f'rgb({r}, {g}, {b})'
+                    else:
+                        r, g, b = 57, int(57 + (83 - 57) * intensity), 83
+                        color = f'rgb({r}, {g}, {b})'
                 svg_parts.append(f'''    <rect x="{x}" y="{y}" width="{cell_size}" height="{cell_size}" fill="{color}" rx="2"/>''')
                 
                 # Store dot info for animation (only in Pac-Man's row)
@@ -198,9 +202,9 @@ def generate_svg(contributions, theme='light'):
     # Add Pac-Man with animated mouth
     pacman_y = pacman_row * cell_total + cell_size / 2
     svg_parts.append(f'''    <g class="pacman-group" transform="translate(0, {pacman_row * cell_total})">
-      <circle cx="5.5" cy="5.5" r="5.5" fill="{pacman_color}"/>
+      <circle cx="{pacman_center}" cy="{pacman_center}" r="{pacman_r}" fill="{pacman_color}"/>
       <g class="pacman-mouth">
-        <path d="M 5.5 5.5 L 5.5 0 A 5.5 5.5 0 0 1 11 5.5 Z" fill="{bg_color}"/>
+        <path d="M {pacman_center} {pacman_center} L {pacman_center} 0.5 A {pacman_r} {pacman_r} 0 0 1 {2*pacman_r + 1} {pacman_center} Z" fill="{bg_color}"/>
       </g>
     </g>''')
     
@@ -214,6 +218,9 @@ def main():
     parser.add_argument('--user', required=True, help='GitHub username')
     parser.add_argument('--output', required=True, help='Output SVG file path')
     parser.add_argument('--theme', default='light', choices=['light', 'dark'], help='Theme (light or dark)')
+    parser.add_argument('--cell-size', type=int, default=8, help='Size of each grid cell (default 8, smaller = 6-7)')
+    parser.add_argument('--cell-gap', type=int, default=1, help='Gap between cells (default 1)')
+    parser.add_argument('--single-color', action='store_true', help='Use one green for all contribution levels')
     
     args = parser.parse_args()
     
@@ -233,8 +240,11 @@ def main():
     print(f"Retrieved {total} total contributions across {num_weeks} weeks")
     
     # Generate SVG
-    print(f"Generating SVG with {args.theme} theme...")
-    svg = generate_svg(contributions, args.theme)
+    print(f"Generating SVG with {args.theme} theme (cell_size={args.cell_size}, single_color={args.single_color})...")
+    svg = generate_svg(
+        contributions, args.theme,
+        cell_size=args.cell_size, cell_gap=args.cell_gap, single_color=args.single_color
+    )
     
     # Write to file
     with open(args.output, 'w', encoding='utf-8') as f:
