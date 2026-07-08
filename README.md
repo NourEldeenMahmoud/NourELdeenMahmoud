@@ -67,6 +67,7 @@
 
 <br/>
 
+<div align="center">
 <table width="100%">
 <tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
@@ -317,6 +318,7 @@
 </td>
 </tr>
 </table>
+</div>
 
 > **Note:** More projects coming soon! Check out my [repositories](https://github.com/NourEldeenMahmoud?tab=repositories) for the latest work.
 
