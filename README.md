@@ -4,7 +4,7 @@
 
 <div align="center">
   <h1>Hi there, I'm Nour Eldeen</h1>
-  <h3>Software Engineer | Full-Stack Architect | Automation Enthusiast</h3>
+  <h3>Software Engineer | Full-Stack .NET | Turning ideas into production-ready systems</h3>
 </div>
 
 <div align="center">
