@@ -67,9 +67,9 @@
 
 <br/>
 
-<table>
+<table width="100%">
 <tr>
-<td valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### Blood Bank Management System
 **Desktop App for Blood Bank Operations**
@@ -91,9 +91,7 @@
 </a>
 
 </td>
-</tr>
-<tr>
-<td valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### Bookify
 **Hotel Reservation Platform**
@@ -118,7 +116,7 @@
 </td>
 </tr>
 <tr>
-<td valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### Blood Bank Mobile App
 **Cross-Platform Blood Bank Platform**
@@ -141,9 +139,7 @@
 </a>
 
 </td>
-</tr>
-<tr>
-<td valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### XPTracker-Bot
 **XP & Leveling Discord Bot**
@@ -166,7 +162,7 @@
 </td>
 </tr>
 <tr>
-<td valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### DVLD
 **Driving License Management System**
@@ -188,9 +184,7 @@
 </a>
 
 </td>
-</tr>
-<tr>
-<td valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### HowToTrainYourAI-Game
 **Unity 6 Narrative Game**
@@ -212,7 +206,7 @@
 </td>
 </tr>
 <tr>
-<td valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### CinemaVerse
 **Cinema Ticket Booking Platform**
@@ -235,9 +229,7 @@
 </a>
 
 </td>
-</tr>
-<tr>
-<td valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### Bank Management System
 **Console-Based Banking System**
@@ -259,7 +251,7 @@
 </td>
 </tr>
 <tr>
-<td valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### MET-Summaries
 **Academic Course Summaries**
@@ -278,9 +270,7 @@
 </a>
 
 </td>
-</tr>
-<tr>
-<td valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### Unity Projects
 **Unity 6 Game Collection**
@@ -302,7 +292,7 @@
 </td>
 </tr>
 <tr>
-<td valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td colspan="2" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 #### Frontend Mini Projects
 **Modern Frontend Collection**
