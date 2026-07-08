@@ -73,7 +73,7 @@
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/BBMS-Project">Blood Bank Management System</a></h3>
-**Desktop App for Blood Bank Operations**
+<strong>Desktop App for Blood Bank Operations</strong>
 
 - Donor & Inventory Tracking
 - Real-time Dashboard & Reports
@@ -95,7 +95,7 @@
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/Bookify">Bookify</a></h3>
-**Hotel Reservation Platform**
+<strong>Hotel Reservation Platform</strong>
 
 - Room Search & Booking System
 - Online Payments & Admin Dashboard
@@ -120,7 +120,7 @@
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/Blood-Bank-mobile-App">Blood Bank Mobile App</a></h3>
-**Cross-Platform Blood Bank Platform**
+<strong>Cross-Platform Blood Bank Platform</strong>
 
 - Flutter Mobile App for Donors
 - REST API Integration & Notifications
@@ -143,7 +143,7 @@
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/XPTracker-Bot">XPTracker-Bot</a></h3>
-**XP & Leveling Discord Bot**
+<strong>XP & Leveling Discord Bot</strong>
 
 - XP Tracking & Leaderboards
 - Automatic Role Rewards & REST API
@@ -166,7 +166,7 @@
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/DVLD">DVLD</a></h3>
-**Driving License Management System**
+<strong>Driving License Management System</strong>
 
 - License Applications & Testing
 - User Management & International Permits
@@ -188,7 +188,7 @@
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/HowToTrainYourAI-Game">HowToTrainYourAI-Game</a></h3>
-**Unity 6 Narrative Game**
+<strong>Unity 6 Narrative Game</strong>
 
 - First-person AI Training Experience
 - Multiple Mini-Games & Dynamic Storytelling
@@ -210,7 +210,7 @@
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/CinemaVerse">CinemaVerse</a></h3>
-**Cinema Ticket Booking Platform**
+<strong>Cinema Ticket Booking Platform</strong>
 
 - Fullstack with Angular & ASP.NET Core
 - Stripe Payments & QR Code Tickets
@@ -233,7 +233,7 @@
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/Bank-Managment-System">Bank Management System</a></h3>
-**Console-Based Banking System**
+<strong>Console-Based Banking System</strong>
 
 - Account Management & Transactions
 - Currency Exchange & User Administration
@@ -255,7 +255,7 @@
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/MET-Summaries">MET-Summaries</a></h3>
-**Academic Course Summaries**
+<strong>Academic Course Summaries</strong>
 
 - Networks, Computer Graphics, GIS & More
 - 15 Stars - Most Popular Repo
@@ -274,7 +274,7 @@
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/Unity-Projects">Unity Projects</a></h3>
-**Unity 6 Game Collection**
+<strong>Unity 6 Game Collection</strong>
 
 - Physics-Based Flight, Space Shooter
 - Endless Runner & Precision Shooter
@@ -296,7 +296,7 @@
 <td colspan="2" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/frontend-mini-projects">Frontend Mini Projects</a></h3>
-**Modern Frontend Collection**
+<strong>Modern Frontend Collection</strong>
 
 - HTML, CSS, JavaScript, Tailwind CSS & React
 - Responsive Design & Interactive Web Experiences
