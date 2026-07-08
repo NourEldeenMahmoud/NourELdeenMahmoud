@@ -28,6 +28,7 @@
   <img src="https://skillicons.dev/icons?i=mongodb" height="56" alt="mongodb logo" style="margin:0 10px"/>
   <img src="https://skillicons.dev/icons?i=docker" height="56" alt="docker logo" style="margin:0 10px"/>
   <img src="https://skillicons.dev/icons?i=git" height="56" alt="git logo" style="margin:0 10px"/>
+  <br/><br/>
   <img src="https://skillicons.dev/icons?i=tailwind" height="56" alt="tailwind logo" style="margin:0 10px"/>
   <img src="https://skillicons.dev/icons?i=bootstrap" height="56" alt="bootstrap logo" style="margin:0 10px"/>
   <img src="https://skillicons.dev/icons?i=html" height="56" alt="html logo" style="margin:0 10px"/>
