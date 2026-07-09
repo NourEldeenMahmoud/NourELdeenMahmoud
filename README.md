@@ -73,26 +73,49 @@
 <tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
-<h3><a href="https://github.com/NourEldeenMahmoud/BBMS-Project">Blood Bank Management System</a></h3>
-<strong>Desktop App for Blood Bank Operations</strong>
+<h3><a href="https://github.com/NourEldeenMahmoud/HowToTrainYourAI-Game">HowToTrainYourAI-Game</a></h3>
+<strong>Unity 6 Narrative Game</strong>
 
-- Donor & Inventory Tracking
-- Real-time Dashboard & Reports
+- First-person AI Training Experience
+- Multiple Mini-Games & Dynamic Storytelling
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=windows" height="40" alt="Desktop" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" height="40" alt="Unity" style="margin:0 5px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" style="margin:0 5px"/>
-<img src="https://skillicons.dev/icons?i=dotnet" height="40" alt=".NET" style="margin:0 5px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="40" alt="SQL Server" style="margin:0 5px"/>
 
 <br/><br/>
 
-<a href="https://github.com/NourEldeenMahmoud/BBMS-Project">
+<a href="https://github.com/NourEldeenMahmoud/HowToTrainYourAI-Game">
   <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
 </a>
 
 </td>
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+
+<h3><a href="https://github.com/NourEldeenMahmoud/CinemaVerse">CinemaVerse</a></h3>
+<strong>Cinema Ticket Booking Platform</strong>
+
+- Fullstack with Angular & ASP.NET Core
+- Stripe Payments & QR Code Tickets
+
+<br/>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="Angular" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=dotnet" height="40" alt="ASP.NET Core" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="40" alt="SQL Server" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=stripe" height="40" alt="Stripe" style="margin:0 5px"/>
+
+<br/><br/>
+
+<a href="https://github.com/NourEldeenMahmoud/CinemaVerse">
+  <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
+</a>
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/Bookify">Bookify</a></h3>
@@ -112,6 +135,28 @@
 <br/><br/>
 
 <a href="https://github.com/NourEldeenMahmoud/Bookify">
+  <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
+</a>
+
+</td>
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+
+<h3><a href="https://github.com/NourEldeenMahmoud/BBMS-Project">Blood Bank Management System</a></h3>
+<strong>Desktop App for Blood Bank Operations</strong>
+
+- Donor & Inventory Tracking
+- Real-time Dashboard & Reports
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=windows" height="40" alt="Desktop" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=dotnet" height="40" alt=".NET" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="40" alt="SQL Server" style="margin:0 5px"/>
+
+<br/><br/>
+
+<a href="https://github.com/NourEldeenMahmoud/BBMS-Project">
   <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
 </a>
 
@@ -143,21 +188,20 @@
 </td>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
-<h3><a href="https://github.com/NourEldeenMahmoud/XPTracker-Bot">XPTracker-Bot</a></h3>
-<strong>XP & Leveling Discord Bot</strong>
+<h3><a href="https://github.com/NourEldeenMahmoud/Unity-Projects">Unity Projects</a></h3>
+<strong>Unity 6 Game Collection</strong>
 
-- XP Tracking & Leaderboards
-- Automatic Role Rewards & REST API
+- Physics-Based Flight, Space Shooter
+- Endless Runner & Precision Shooter
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=discord" height="40" alt="Bot" style="margin:0 5px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" style="margin:0 5px"/>
-<img src="https://skillicons.dev/icons?i=fastapi" height="40" alt="FastAPI" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" height="40" alt="Unity" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" style="margin:0 5px"/>
 
 <br/><br/>
 
-<a href="https://github.com/NourEldeenMahmoud/XPTracker-Bot">
+<a href="https://github.com/NourEldeenMahmoud/Unity-Projects">
   <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
 </a>
 
@@ -188,49 +232,25 @@
 </td>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
-<h3><a href="https://github.com/NourEldeenMahmoud/HowToTrainYourAI-Game">HowToTrainYourAI-Game</a></h3>
-<strong>Unity 6 Narrative Game</strong>
+<h3><a href="https://github.com/NourEldeenMahmoud/MET-Summaries">MET-Summaries</a></h3>
+<strong>Academic Course Summaries</strong>
 
-- First-person AI Training Experience
-- Multiple Mini-Games & Dynamic Storytelling
+- Networks, Computer Graphics, GIS & More
+- 15 Stars - Most Popular Repo
 
 <br/>
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" height="40" alt="Unity" style="margin:0 5px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=html" height="40" alt="HTML" style="margin:0 5px"/>
 
 <br/><br/>
 
-<a href="https://github.com/NourEldeenMahmoud/HowToTrainYourAI-Game">
+<a href="https://github.com/NourEldeenMahmoud/MET-Summaries">
   <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
 </a>
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
-
-<h3><a href="https://github.com/NourEldeenMahmoud/CinemaVerse">CinemaVerse</a></h3>
-<strong>Cinema Ticket Booking Platform</strong>
-
-- Fullstack with Angular & ASP.NET Core
-- Stripe Payments & QR Code Tickets
-
-<br/>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="Angular" style="margin:0 5px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" style="margin:0 5px"/>
-<img src="https://skillicons.dev/icons?i=dotnet" height="40" alt="ASP.NET Core" style="margin:0 5px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="40" alt="SQL Server" style="margin:0 5px"/>
-<img src="https://skillicons.dev/icons?i=stripe" height="40" alt="Stripe" style="margin:0 5px"/>
-
-<br/><br/>
-
-<a href="https://github.com/NourEldeenMahmoud/CinemaVerse">
-  <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
-</a>
-
-</td>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/Bank-Managment-System">Bank Management System</a></h3>
@@ -251,43 +271,23 @@
 </a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
-<h3><a href="https://github.com/NourEldeenMahmoud/MET-Summaries">MET-Summaries</a></h3>
-<strong>Academic Course Summaries</strong>
+<h3><a href="https://github.com/NourEldeenMahmoud/XPTracker-Bot">XPTracker-Bot</a></h3>
+<strong>XP & Leveling Discord Bot</strong>
 
-- Networks, Computer Graphics, GIS & More
-- 15 Stars - Most Popular Repo
+- XP Tracking & Leaderboards
+- Automatic Role Rewards & REST API
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=html" height="40" alt="HTML" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=discord" height="40" alt="Bot" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=fastapi" height="40" alt="FastAPI" style="margin:0 5px"/>
 
 <br/><br/>
 
-<a href="https://github.com/NourEldeenMahmoud/MET-Summaries">
-  <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
-</a>
-
-</td>
-<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
-
-<h3><a href="https://github.com/NourEldeenMahmoud/Unity-Projects">Unity Projects</a></h3>
-<strong>Unity 6 Game Collection</strong>
-
-- Physics-Based Flight, Space Shooter
-- Endless Runner & Precision Shooter
-
-<br/>
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" height="40" alt="Unity" style="margin:0 5px"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" style="margin:0 5px"/>
-
-<br/><br/>
-
-<a href="https://github.com/NourEldeenMahmoud/Unity-Projects">
+<a href="https://github.com/NourEldeenMahmoud/XPTracker-Bot">
   <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
 </a>
 
