@@ -116,6 +116,31 @@
 </td>
 </tr>
 <tr>
+<td colspan="2" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+
+<h3><a href="https://github.com/NourEldeenMahmoud/BuildSense">BuildSense</a></h3>
+<strong>PC Hardware Discovery & Compatibility Platform</strong>
+
+- Egyptian Retailer Catalog & Price Offers
+- Persistent PC Builder & Compatibility Engine
+
+<br/>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="Node.js" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="Angular" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="TypeScript" style="margin:0 5px"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB" style="margin:0 5px"/>
+<img src="https://skillicons.dev/icons?i=nx" height="40" alt="Nx" style="margin:0 5px"/>
+
+<br/><br/>
+
+<a href="https://github.com/NourEldeenMahmoud/BuildSense">
+  <img src="https://img.shields.io/badge/⭐_Repo-181717?style=flat-square&logo=github&logoColor=white" alt="Repository" />
+</a>
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/Bookify">Bookify</a></h3>
