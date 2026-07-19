@@ -116,7 +116,7 @@
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/BuildSense">BuildSense</a></h3>
 <strong>PC Hardware Discovery & Compatibility Platform</strong>
@@ -139,8 +139,6 @@
 </a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/Bookify">Bookify</a></h3>
@@ -164,6 +162,8 @@
 </a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/BBMS-Project">Blood Bank Management System</a></h3>
@@ -186,8 +186,6 @@
 </a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/Blood-Bank-mobile-App">Blood Bank Mobile App</a></h3>
@@ -211,6 +209,8 @@
 </a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/Unity-Projects">Unity Projects</a></h3>
@@ -231,8 +231,6 @@
 </a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/DVLD">DVLD</a></h3>
@@ -255,6 +253,8 @@
 </a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/MET-Summaries">MET-Summaries</a></h3>
@@ -274,8 +274,6 @@
 </a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/Bank-Managment-System">Bank Management System</a></h3>
@@ -296,6 +294,8 @@
 </a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/XPTracker-Bot">XPTracker-Bot</a></h3>
@@ -317,9 +317,7 @@
 </a>
 
 </td>
-</tr>
-<tr>
-<td colspan="2" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
+<td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
 <h3><a href="https://github.com/NourEldeenMahmoud/frontend-mini-projects">Frontend Mini Projects</a></h3>
 <strong>Modern Frontend Collection</strong>
