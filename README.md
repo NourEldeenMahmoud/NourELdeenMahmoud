@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/portfolio-hero.png" alt="Nour Eldeen Mahmoud portfolio showcase" width="100%" />
+</p>
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Nour%20Eldeen&fontSize=90&fontAlignY=35&animation=twinkling&fontColor=ffffff" alt="Header"/>
 </div>
