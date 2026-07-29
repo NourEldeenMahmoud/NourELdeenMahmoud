@@ -14,7 +14,7 @@
 <div align="center">
   <h3>Explore my projects, case studies, and the systems I've built.</h3>
   <a href="https://www.noureldeendev.me">
-    <img src="https://img.shields.io/badge/Visit_My_Portfolio-C9964A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit my portfolio" />
+    <img src="./assets/portfolio-cta.svg" alt="Visit my portfolio" width="480" />
   </a>
 </div>
 
