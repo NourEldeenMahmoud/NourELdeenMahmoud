@@ -15,6 +15,9 @@
   <img src="./assets/portfolio-hero.png" alt="Preview of Nour Eldeen Mahmoud's portfolio" width="100%" />
 </a>
 
+<br/>
+<br/>
+
 <div align="center">
   <a href="https://www.noureldeendev.me">
     <img src="./assets/portfolio-cta.svg" alt="Visit my portfolio" width="360" />

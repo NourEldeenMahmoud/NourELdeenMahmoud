@@ -7,6 +7,6 @@
       <stop offset="1" stop-color="#18334b" />
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="358" height="58" rx="11" fill="url(#background)" stroke="#d7ad68" stroke-width="2" />
+  <rect x="0.5" y="0.5" width="359" height="59" rx="11" fill="url(#background)" stroke="#d7ad68" stroke-width="1" />
   <text x="180" y="37" fill="#f3d39b" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="1.2">VISIT MY PORTFOLIO</text>
 </svg>
