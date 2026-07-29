@@ -1,12 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="56" viewBox="0 0 320 56" role="img" aria-labelledby="title description">
   <title id="title">Visit My Portfolio</title>
   <desc id="description">Open Nour Eldeen Mahmoud's portfolio website</desc>
-  <defs>
-    <filter id="shadow" x="-10%" y="-30%" width="120%" height="170%">
-      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#6c7bff" flood-opacity="0.2" />
-    </filter>
-  </defs>
-  <rect x="4" y="2" width="312" height="48" rx="12" fill="#6c7bff" filter="url(#shadow)" />
+  <rect x="4" y="2" width="312" height="48" rx="12" fill="#13283a" />
   <text x="142" y="33" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="1">VIEW MY PORTFOLIO</text>
   <path d="M270 21 L277 26 L270 31 M276 26 H260" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 </svg>
