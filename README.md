@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./assets/portfolio-hero.png" alt="Nour Eldeen Mahmoud portfolio showcase" width="100%" />
-</p>
-
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Nour%20Eldeen&fontSize=90&fontAlignY=35&animation=twinkling&fontColor=ffffff" alt="Header"/>
 </div>
@@ -14,6 +10,19 @@
 <div align="center">
   <img src="https://readme-typing-svg.vercel.app/?font=Fira+Code&size=22&duration=3000&pause=1000&color=6C7BFF&center=true&vCenter=true&width=1000&lines=Crafting+elegant+solutions+through+clean+code;Building+reliable+and+efficient+software;Turning+ideas+into+production-ready+systems" alt="Typing SVG" />
 </div>
+
+<div align="center">
+  <h3>Explore my projects, case studies, and the systems I've built.</h3>
+  <a href="https://www.noureldeendev.me">
+    <img src="https://img.shields.io/badge/Visit_My_Portfolio-C9964A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit my portfolio" />
+  </a>
+</div>
+
+<br/>
+
+<a href="https://www.noureldeendev.me">
+  <img src="./assets/portfolio-hero.png" alt="Preview of Nour Eldeen Mahmoud's portfolio" width="100%" />
+</a>
 
 ---
 
