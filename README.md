@@ -20,7 +20,7 @@
 
 <div align="center">
   <a href="https://www.noureldeendev.me">
-    <img src="./assets/portfolio-cta.svg" alt="Visit my portfolio" width="360" />
+    <img src="./assets/portfolio-cta.svg" alt="Visit my portfolio" width="320" />
   </a>
 </div>
 
