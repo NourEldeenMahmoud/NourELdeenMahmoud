@@ -11,18 +11,15 @@
   <img src="https://readme-typing-svg.vercel.app/?font=Fira+Code&size=22&duration=3000&pause=1000&color=6C7BFF&center=true&vCenter=true&width=1000&lines=Crafting+elegant+solutions+through+clean+code;Building+reliable+and+efficient+software;Turning+ideas+into+production-ready+systems" alt="Typing SVG" />
 </div>
 
-<div align="center">
-  <h3>Explore my projects, case studies, and the systems I've built.</h3>
-  <a href="https://www.noureldeendev.me">
-    <img src="./assets/portfolio-cta.svg" alt="Visit my portfolio" width="480" />
-  </a>
-</div>
-
-<br/>
-
 <a href="https://www.noureldeendev.me">
   <img src="./assets/portfolio-hero.png" alt="Preview of Nour Eldeen Mahmoud's portfolio" width="100%" />
 </a>
+
+<div align="center">
+  <a href="https://www.noureldeendev.me">
+    <img src="./assets/portfolio-cta.svg" alt="Visit my portfolio" width="360" />
+  </a>
+</div>
 
 ---
 
