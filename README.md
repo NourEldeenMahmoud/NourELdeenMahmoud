@@ -63,7 +63,6 @@
 
 <div align="center">
   <h2>Featured Projects</h2>
-  <p><i>A collection of projects I've built across different domains.</i></p>
 </div>
 
 <br/>
@@ -75,7 +74,6 @@
 
 <p><strong>PERSONAL SHOWCASE | LIVE SITE</strong></p>
 <h2><a href="https://www.noureldeendev.me">Nour Eldeen's Portfolio</a></h2>
-<p>Explore my work, projects, and case studies in one place.</p>
 
 <br/>
 
