@@ -62,7 +62,7 @@
 ---
 
 <div align="center">
-  <h2>Featured Projects</h2>
+  <h3>Featured Projects</h3>
 </div>
 
 <div align="center">
