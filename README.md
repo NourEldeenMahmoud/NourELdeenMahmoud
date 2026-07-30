@@ -65,14 +65,11 @@
   <h2>Featured Projects</h2>
 </div>
 
-<br/>
-
 <div align="center">
 <table width="100%">
 <tr>
 <td colspan="2" align="center" valign="top" bgcolor="#0d1926" style="padding: 20px; border: 1px solid #3d5f78; border-radius: 10px;">
 
-<p><strong>PERSONAL SHOWCASE | LIVE SITE</strong></p>
 <h2><a href="https://www.noureldeendev.me">Nour Eldeen's Portfolio</a></h2>
 
 <br/>
