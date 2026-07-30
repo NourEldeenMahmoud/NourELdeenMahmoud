@@ -80,11 +80,10 @@
 
 <br/>
 
-<strong>Cinematic Bilingual Developer Portfolio</strong>
+<big><strong>Cinematic Bilingual Developer Portfolio</strong></big>
 <br/>
-<sub>Project showcase and case studies | Arabic and English experience</sub>
-
-<br/><br/>
+<big>Project showcase and case studies | Arabic and English experience</big>
+<br/>
 
 <img src="https://skillicons.dev/icons?i=nextjs" height="40" alt="Next.js" style="margin:0 5px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React" style="margin:0 5px"/>
