@@ -11,19 +11,6 @@
   <img src="https://readme-typing-svg.vercel.app/?font=Fira+Code&size=22&duration=3000&pause=1000&color=6C7BFF&center=true&vCenter=true&width=1000&lines=Crafting+elegant+solutions+through+clean+code;Building+reliable+and+efficient+software;Turning+ideas+into+production-ready+systems" alt="Typing SVG" />
 </div>
 
-<a href="https://www.noureldeendev.me">
-  <img src="./assets/portfolio-hero.png" alt="Preview of Nour Eldeen Mahmoud's portfolio" width="100%" />
-</a>
-
-<br/>
-<br/>
-
-<div align="center">
-  <a href="https://www.noureldeendev.me">
-    <img src="./assets/portfolio-cta-navy-bordered.svg" alt="Visit my portfolio" width="320" />
-  </a>
-</div>
-
 ---
 
 <div align="center" style="margin-bottom:18px;">
@@ -83,6 +70,29 @@
 
 <div align="center">
 <table width="100%">
+<tr>
+<td colspan="2" align="center" valign="top" bgcolor="#0d1926" style="padding: 20px; border: 1px solid #3d5f78; border-radius: 10px;">
+
+<p><strong>PERSONAL SHOWCASE | LIVE SITE</strong></p>
+<h2><a href="https://www.noureldeendev.me">Nour Eldeen's Portfolio</a></h2>
+<p>Explore my work, projects, and case studies in one place.</p>
+
+<br/>
+
+<a href="https://www.noureldeendev.me">
+  <img src="./assets/portfolio-hero.png" alt="Preview of Nour Eldeen Mahmoud's portfolio" width="100%" />
+</a>
+
+<br/><br/>
+
+<a href="https://www.noureldeendev.me">
+  <img src="./assets/portfolio-cta-navy-bordered.svg" alt="Visit my portfolio" width="320" />
+</a>
+
+<br/>
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top" style="padding: 15px; border: 1px solid #30363d; border-radius: 8px;">
 
