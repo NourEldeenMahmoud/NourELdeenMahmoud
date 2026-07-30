@@ -78,14 +78,13 @@
   <img src="./assets/portfolio-hero.png" alt="Preview of Nour Eldeen Mahmoud's portfolio" width="100%" />
 </a>
 
-<br/><br/>
+<br/>
 
 <strong>Cinematic Bilingual Developer Portfolio</strong>
-
-- Project showcase and case studies
-- Arabic and English experience
-
 <br/>
+<sub>Project showcase and case studies | Arabic and English experience</sub>
+
+<br/><br/>
 
 <img src="https://skillicons.dev/icons?i=nextjs" height="40" alt="Next.js" style="margin:0 5px"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React" style="margin:0 5px"/>
@@ -93,7 +92,7 @@
 <img src="https://skillicons.dev/icons?i=threejs" height="40" alt="Three.js" style="margin:0 5px"/>
 <img src="https://cdn.simpleicons.org/gsap/88CE02" height="40" alt="GSAP" style="margin:0 5px"/>
 
-<br/><br/>
+<br/>
 
 <a href="https://www.noureldeendev.me">
   <img src="./assets/portfolio-cta-navy-bordered.svg" alt="Visit my portfolio" width="320" />
